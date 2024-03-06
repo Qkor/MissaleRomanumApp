@@ -8,6 +8,7 @@ class NavBloc extends Bloc<NavEvent, NavState>{
   final MissalApiService service = MissalApiService();
   NavBloc() : super(CalendarLoadedState()){
     on<NavCalendarEvent>(_getCalendar);
+    on<NavOrdoEvent>(_getOrdo);
   }
 
   _getCalendar(NavEvent event, Emitter<NavState> emit) async {
@@ -18,6 +19,11 @@ class NavBloc extends Bloc<NavEvent, NavState>{
     } catch(_){
       emit(FailureState());
     }
+  }
+
+  _getOrdo(NavEvent event, Emitter<NavState> emit) async {
+    emit(LoadingState());
+    emit(OrdoLoadedState());
   }
 
 }

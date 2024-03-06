@@ -6,6 +6,5 @@ abstract class NavState extends Equatable {
 }
 class LoadingState extends NavState{}
 class FailureState extends NavState{}
-class CalendarLoadedState extends NavState{
-
-}
+class CalendarLoadedState extends NavState{}
+class OrdoLoadedState extends NavState{}

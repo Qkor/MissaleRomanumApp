@@ -5,3 +5,4 @@ abstract class NavEvent extends Equatable {
   List<Object> get props => [];
 }
 class NavCalendarEvent extends NavEvent{}
+class NavOrdoEvent extends NavEvent{}
