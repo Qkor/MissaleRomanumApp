@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
             body: BlocBuilder<NavBloc, NavState>(
               builder: (context, state){
                 if(state is CalendarLoadedState){
-                  return const CalendarPage();
+                  return CalendarPage(calendar: state.calendar);
                 }
                 if(state is OrdoLoadedState){
                   return const OrdoPage();
