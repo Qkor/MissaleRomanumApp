@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:missale/bloc/nav_bloc.dart';
+import 'package:missale/bloc/nav_state.dart';
 import 'package:missale/custom_app_bar.dart';
 
 void main() {
@@ -13,22 +16,24 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Missale Romanum',
       theme: ThemeData.dark(),
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: CustomAppBar(),
+      home: Scaffold(
+        appBar: const CustomAppBar(),
+        body: SingleChildScrollView(
+          child: BlocProvider<NavBloc>(
+            create: (context) => NavBloc(),
+            child: BlocListener<NavBloc, NavState>(
+              listener: (context, state){},
+              child: BlocBuilder<NavBloc, NavState>(
+                builder: (context, state){
+                  return switch(state){
+                    _ => const Center(child: CircularProgressIndicator())
+                  };
+                },
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
