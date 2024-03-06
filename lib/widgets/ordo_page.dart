@@ -8,7 +8,12 @@ class OrdoPage extends StatelessWidget{
 
   List<Widget> _getRubrics(List<List<String>> section, BuildContext context){
     return section.map((rubric){
-      if(rubric.length == 1) return Text(rubric[0], style: const TextStyle(color: Colors.redAccent));
+      if(rubric.length == 1) {
+        return Padding(
+          padding: const EdgeInsets.all(5),
+          child: Text(rubric[0], style: const TextStyle(color: Colors.redAccent), textAlign: TextAlign.center),
+        );
+      }
       return Padding(
         padding: const EdgeInsets.all(10),
         child: Row(
