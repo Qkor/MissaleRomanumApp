@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                   return CalendarPage(calendar: state.calendar);
                 }
                 if(state is OrdoLoadedState){
-                  return const OrdoPage();
+                  return OrdoPage(ordo: state.ordo);
                 }
                 return const Center();
               },

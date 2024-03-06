@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:missale/services/missal_api_service.dart';
-import '../models/calendar.dart';
+import 'package:missale/models/calendar.dart';
+import 'package:missale/models/ordo.dart';
 import 'nav_event.dart';
 import 'nav_state.dart';
 
@@ -23,7 +24,12 @@ class NavBloc extends Bloc<NavEvent, NavState>{
 
   _getOrdo(NavEvent event, Emitter<NavState> emit) async {
     emit(LoadingState());
-    emit(OrdoLoadedState());
+    try{
+      Ordo ordo = await service.fetchOrdo();
+      emit(OrdoLoadedState(ordo));
+    } catch(_){
+      emit(FailureState());
+    }
   }
 
 }

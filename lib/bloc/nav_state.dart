@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-
 import '../models/calendar.dart';
+import '../models/ordo.dart';
 
 abstract class NavState extends Equatable {
   @override
@@ -13,4 +13,7 @@ class CalendarLoadedState extends NavState{
   final List<LiturgicalCalendar> calendar;
   CalendarLoadedState(this.calendar);
 }
-class OrdoLoadedState extends NavState{}
+class OrdoLoadedState extends NavState{
+  final Ordo ordo;
+  OrdoLoadedState(this.ordo);
+}
