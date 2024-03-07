@@ -10,9 +10,10 @@ class NavBloc extends Bloc<NavEvent, NavState>{
   NavBloc() : super(InitState()){
     on<NavCalendarEvent>(_getCalendar);
     on<NavOrdoEvent>(_getOrdo);
+    on<NavProperEvent>(_getProper);
   }
 
-  _getCalendar(NavEvent event, Emitter<NavState> emit) async {
+  _getCalendar(NavCalendarEvent event, Emitter<NavState> emit) async {
     emit(LoadingState());
     try{
       List<LiturgicalCalendar> calendar = await service.fetchCurrentYearCalendar();
@@ -22,10 +23,20 @@ class NavBloc extends Bloc<NavEvent, NavState>{
     }
   }
 
-  _getOrdo(NavEvent event, Emitter<NavState> emit) async {
+  _getOrdo(NavOrdoEvent event, Emitter<NavState> emit) async {
     emit(LoadingState());
     try{
       Ordo ordo = await service.fetchOrdo();
+      emit(OrdoLoadedState(ordo));
+    } catch(_){
+      emit(FailureState());
+    }
+  }
+
+  _getProper(NavProperEvent event, Emitter<NavState> emit) async {
+    emit(LoadingState());
+    try{
+      Ordo ordo = await service.fetchProper(event.id);
       emit(OrdoLoadedState(ordo));
     } catch(_){
       emit(FailureState());

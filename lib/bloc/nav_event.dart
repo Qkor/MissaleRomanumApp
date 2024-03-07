@@ -6,3 +6,7 @@ abstract class NavEvent extends Equatable {
 }
 class NavCalendarEvent extends NavEvent{}
 class NavOrdoEvent extends NavEvent{}
+class NavProperEvent extends NavEvent{
+  final String id;
+  NavProperEvent({required this.id});
+}

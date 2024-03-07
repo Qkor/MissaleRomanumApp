@@ -1,5 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../bloc/nav_bloc.dart';
+import '../bloc/nav_event.dart';
 import '../models/calendar.dart';
 
 class CalendarPage extends StatelessWidget{
@@ -20,16 +22,21 @@ class CalendarPage extends StatelessWidget{
           _ => Colors.green
         };
         return ListTile(
-          title: Card(
-            child: Container(
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(border: Border(left: BorderSide(color: liturgicalColor, width: 5))),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(calendar[index].title, style: const TextStyle(fontWeight: FontWeight.bold)),
-                  Text(calendar[index].id),
-                ],
+          title: GestureDetector(
+            onTap: (){
+              BlocProvider.of<NavBloc>(context).add(NavProperEvent(id: calendar[index].id));
+            },
+            child: Card(
+              child: Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(border: Border(left: BorderSide(color: liturgicalColor, width: 5))),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(calendar[index].title, style: const TextStyle(fontWeight: FontWeight.bold)),
+                    Text(calendar[index].id),
+                  ],
+                ),
               ),
             ),
           ),

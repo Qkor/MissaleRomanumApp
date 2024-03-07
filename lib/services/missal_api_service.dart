@@ -26,4 +26,12 @@ class MissalApiService{
     throw Exception();
   }
 
+  Future<Ordo> fetchProper(String id) async {
+    final response = await get(Uri.parse('$apiUrl/proper/$id'));
+    if(response.statusCode == 200){
+      return Ordo.fromJson((jsonDecode(response.body) as List)[0] as Map<String,dynamic>);
+    }
+    throw Exception();
+  }
+
 }

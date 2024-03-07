@@ -26,7 +26,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
         itemBuilder: (BuildContext context) => [
           const PopupMenuItem(
             value: 'calendar',
-            child: Text('Kalendarz liturgiczny'),
+            child: Text('Propria'),
           ),
           const PopupMenuItem(
             value: 'ordo',
