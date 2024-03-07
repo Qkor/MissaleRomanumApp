@@ -6,6 +6,7 @@ import 'package:missale/bloc/nav_state.dart';
 import 'package:missale/widgets/custom_app_bar.dart';
 import 'package:missale/widgets/calendar_page.dart';
 import 'package:missale/widgets/ordo_page.dart';
+import 'package:missale/widgets/proper_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,14 @@ class MyApp extends StatelessWidget {
       home: BlocProvider<NavBloc>(
         create: (context) => NavBloc()..add(NavCalendarEvent()),
         child: BlocListener<NavBloc, NavState>(
-          listener: (context, state){},
+          listener: (context, state){
+            if(state is ProperLoadedState){
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProperPage(proper: state.proper)),
+              );
+            }
+          },
           child: Scaffold(
             appBar: const CustomAppBar(),
             body: BlocBuilder<NavBloc, NavState>(

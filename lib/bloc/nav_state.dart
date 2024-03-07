@@ -8,6 +8,7 @@ abstract class NavState extends Equatable {
 }
 class InitState extends NavState{}
 class LoadingState extends NavState{}
+class LoadingProperState extends NavState{}
 class FailureState extends NavState{}
 class CalendarLoadedState extends NavState{
   final List<LiturgicalCalendar> calendar;
@@ -16,4 +17,8 @@ class CalendarLoadedState extends NavState{
 class OrdoLoadedState extends NavState{
   final Ordo ordo;
   OrdoLoadedState(this.ordo);
+}
+class ProperLoadedState extends NavState{
+  final Ordo proper;
+  ProperLoadedState(this.proper);
 }

@@ -34,10 +34,10 @@ class NavBloc extends Bloc<NavEvent, NavState>{
   }
 
   _getProper(NavProperEvent event, Emitter<NavState> emit) async {
-    emit(LoadingState());
+    emit(LoadingProperState());
     try{
       Ordo ordo = await service.fetchProper(event.id);
-      emit(OrdoLoadedState(ordo));
+      emit(ProperLoadedState(ordo));
     } catch(_){
       emit(FailureState());
     }

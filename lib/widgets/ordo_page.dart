@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../models/ordo.dart';
+import 'package:missale/models/ordo.dart';
 
 class OrdoPage extends StatelessWidget{
   final Ordo ordo;
