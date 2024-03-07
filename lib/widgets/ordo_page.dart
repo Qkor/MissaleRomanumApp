@@ -13,28 +13,32 @@ class OrdoPage extends StatelessWidget{
           child: Text(rubric[0], style: const TextStyle(color: Colors.redAccent), textAlign: TextAlign.center),
         );
       }
-      return Padding(
-        padding: const EdgeInsets.all(10),
-        child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              SizedBox(
-                width: MediaQuery.of(context).size.width/2 - 20,
-                child: Padding(
-                  padding: const EdgeInsets.all(5),
-                  child: Text(rubric[0]),
-                ),
-              ),
-              SizedBox(
-                width: MediaQuery.of(context).size.width/2 - 20,
-                child: Padding(
-                  padding: const EdgeInsets.all(5),
-                  child: Text(rubric[1]),
-                ),
-              ),
-            ]
-        ),
+      return LayoutBuilder(
+        builder: (context, _){
+          return Padding(
+            padding: const EdgeInsets.all(10),
+            child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width/2 - 20,
+                    child: Padding(
+                      padding: const EdgeInsets.all(5),
+                      child: Text(rubric[0]),
+                    ),
+                  ),
+                  SizedBox(
+                    width: MediaQuery.of(context).size.width/2 - 20,
+                    child: Padding(
+                      padding: const EdgeInsets.all(5),
+                      child: Text(rubric[1]),
+                    ),
+                  ),
+                ]
+            ),
+          );
+        },
       );
     }).toList();
   }
