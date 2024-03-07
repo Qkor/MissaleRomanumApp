@@ -50,7 +50,7 @@ class OrdoPage extends StatelessWidget{
           child: Column(
             children: [
               Center(
-                  child: Text(ordo.sections[index].label, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold))
+                  child: Text(ordo.sections[index].label, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center)
               ),
               ...rubrics
             ],

@@ -10,7 +10,7 @@ class ProperPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(proper.info.title)),
+      appBar: AppBar(title: Text(proper.info.title), centerTitle: true),
       body: OrdoPage(ordo: proper),
     );
   }

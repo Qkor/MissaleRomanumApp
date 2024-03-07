@@ -12,8 +12,18 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
+  Widget homePageBody = const Center();
+  String homePageTitle = "Missale Romanum";
+
 
   @override
   Widget build(BuildContext context) {
@@ -30,23 +40,27 @@ class MyApp extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => ProperPage(proper: state.proper)),
               );
             }
+            if(state is LoadingState){
+              setState(() {
+                homePageBody = const Center(child: CircularProgressIndicator());
+              });
+            }
+            if(state is CalendarLoadedState){
+              setState(() {
+                homePageBody = CalendarPage(calendar: state.calendar);
+                homePageTitle = "Propria";
+              });
+            }
+            if(state is OrdoLoadedState){
+              setState(() {
+                homePageBody = OrdoPage(ordo: state.ordo);
+                homePageTitle = "Ordo Missae";
+              });
+            }
           },
           child: Scaffold(
-            appBar: const CustomAppBar(),
-            body: BlocBuilder<NavBloc, NavState>(
-              builder: (context, state){
-                if(state is LoadingState){
-                  return const Center(child: CircularProgressIndicator());
-                }
-                if(state is CalendarLoadedState){
-                  return CalendarPage(calendar: state.calendar);
-                }
-                if(state is OrdoLoadedState){
-                  return OrdoPage(ordo: state.ordo);
-                }
-                return const Center();
-              },
-            ),
+            appBar: CustomAppBar(title: homePageTitle),
+            body: homePageBody
           ),
         ),
       )

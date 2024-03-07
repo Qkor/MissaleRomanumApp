@@ -5,14 +5,16 @@ import '../bloc/nav_bloc.dart';
 import '../bloc/nav_event.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
-  const CustomAppBar({super.key});
+  final String title;
+  const CustomAppBar({super.key, required this.title});
   @override
   Size get preferredSize => const Size.fromHeight(50);
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: const Text("Missale Romanum"),
+      centerTitle: true,
+      title: Text(title),
       leading: PopupMenuButton(
         icon: const Icon(Icons.menu),
         onSelected: (value){
