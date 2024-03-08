@@ -16,7 +16,7 @@ class OrdoPage extends StatelessWidget{
       return LayoutBuilder(
         builder: (context, _){
           return Padding(
-            padding: const EdgeInsets.all(10),
+            padding: const EdgeInsets.all(5),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,7 +54,18 @@ class OrdoPage extends StatelessWidget{
           child: Column(
             children: [
               Center(
-                  child: Text(ordo.sections[index].label, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold), textAlign: TextAlign.center)
+                child: Padding(
+                  padding: const EdgeInsets.all(5),
+                  child: Text(
+                    ordo.sections[index].label,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.redAccent
+                    ),
+                    textAlign: TextAlign.center
+                  ),
+                )
               ),
               ...rubrics
             ],
