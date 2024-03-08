@@ -22,11 +22,13 @@ class CalendarPage extends StatelessWidget{
           _ => Colors.green
         };
         return ListTile(
+          minVerticalPadding: 0,
           title: GestureDetector(
             onTap: (){
               BlocProvider.of<NavBloc>(context).add(NavProperEvent(id: calendar[index].id));
             },
             child: Card(
+              margin: EdgeInsets.zero,
               child: Container(
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(border: Border(left: BorderSide(color: liturgicalColor, width: 5))),
