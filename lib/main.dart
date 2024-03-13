@@ -57,6 +57,16 @@ class _MyAppState extends State<MyApp> {
                 homePageTitle = "Ordo Missae";
               });
             }
+            if(state is FailureState){
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: const Text('Nie udało się pobrać rubryk, sprawdź połączenie z internetem',
+                    style: TextStyle(color: Colors.white)
+                  ),
+                  backgroundColor: Colors.red[900],
+                ),
+              );
+            }
           },
           child: Scaffold(
             appBar: CustomAppBar(title: homePageTitle),
