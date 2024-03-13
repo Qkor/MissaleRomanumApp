@@ -5,6 +5,7 @@ import 'package:missale/bloc/nav_event.dart';
 import 'package:missale/bloc/nav_state.dart';
 import 'package:missale/widgets/custom_app_bar.dart';
 import 'package:missale/widgets/calendar_page.dart';
+import 'package:missale/widgets/map_page.dart';
 import 'package:missale/widgets/ordo_page.dart';
 import 'package:missale/widgets/proper_page.dart';
 
@@ -62,6 +63,12 @@ class _MyAppState extends State<MyApp> {
               setState(() {
                 homePageBody = OrdoPage(ordo: state.ordo);
                 homePageTitle = "Ordo Missae";
+              });
+            }
+            if(state is MapState){
+              setState(() {
+                homePageBody = MapPage();
+                homePageTitle = "Msze Święte";
               });
             }
             if(state is FailureState){

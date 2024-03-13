@@ -23,6 +23,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
               BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
             case 'ordo':
               BlocProvider.of<NavBloc>(context).add(OrdoEvent());
+            case 'map':
+              BlocProvider.of<NavBloc>(context).add(MapEvent());
           }
         },
         itemBuilder: (BuildContext context) => [
@@ -33,6 +35,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
           const PopupMenuItem(
             value: 'ordo',
             child: Text('Ordo Missae'),
+          ),
+          const PopupMenuItem(
+            value: 'map',
+            child: Text('Mapa Mszy Św.'),
           ),
         ]
       ),

@@ -10,6 +10,7 @@ class CalendarEvent extends NavEvent{
   CalendarEvent({required this.year});
 }
 class OrdoEvent extends NavEvent{}
+class MapEvent extends NavEvent{}
 class ProperEvent extends NavEvent{
   final String id;
   ProperEvent({required this.id});

@@ -11,6 +11,7 @@ class AppReadyState extends NavState{}
 class LoadingState extends NavState{}
 class LoadingProperState extends NavState{}
 class FailureState extends NavState{}
+class MapState extends NavState{}
 class CalendarLoadedState extends NavState{
   final List<LiturgicalCalendar> calendar;
   CalendarLoadedState(this.calendar);

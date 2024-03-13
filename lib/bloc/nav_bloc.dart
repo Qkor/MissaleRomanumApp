@@ -16,6 +16,7 @@ class NavBloc extends Bloc<NavEvent, NavState>{
     on<CalendarEvent>(_getCalendar);
     on<OrdoEvent>(_getOrdo);
     on<ProperEvent>(_getProper);
+    on<MapEvent>(_mapPage);
   }
 
   _serviceSetup(StartupEvent event, Emitter<NavState> emit) async {
@@ -60,6 +61,10 @@ class NavBloc extends Bloc<NavEvent, NavState>{
     } catch(_){
       emit(FailureState());
     }
+  }
+
+  _mapPage(MapEvent event, Emitter<NavState> emit){
+    emit(MapState());
   }
 
 }
