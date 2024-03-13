@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Missale Romanum',
       theme: ThemeData.dark(),
       home: BlocProvider<NavBloc>(
-        create: (context) => NavBloc()..add(NavCalendarEvent()),
+        create: (context) => NavBloc()..add(NavCalendarEvent(year: DateTime.now().year)),
         child: BlocListener<NavBloc, NavState>(
           listener: (context, state){
             if(state is ProperLoadedState){

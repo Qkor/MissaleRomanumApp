@@ -16,7 +16,7 @@ class NavBloc extends Bloc<NavEvent, NavState>{
   _getCalendar(NavCalendarEvent event, Emitter<NavState> emit) async {
     emit(LoadingState());
     try{
-      List<LiturgicalCalendar> calendar = await service.fetchCurrentYearCalendar();
+      List<LiturgicalCalendar> calendar = await service.fetchCalendar(event.year);
       emit(CalendarLoadedState(calendar));
     } catch(_){
       emit(FailureState());

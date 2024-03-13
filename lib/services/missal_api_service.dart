@@ -40,8 +40,8 @@ class MissalApiService{
     return json;
   }
 
-  Future<List<LiturgicalCalendar>> fetchCurrentYearCalendar() async {
-    String json = await _getRubrics('calendar');
+  Future<List<LiturgicalCalendar>> fetchCalendar(int year) async {
+    String json = await _getRubrics('calendar/$year');
     if(json.isNotEmpty){
       return (jsonDecode(json) as List)
           .map(((data) => LiturgicalCalendar.fromJson(data)))
