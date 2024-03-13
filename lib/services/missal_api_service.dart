@@ -25,18 +25,23 @@ class MissalApiService{
     databaseSetup();
   }
 
-  Future<List<LiturgicalCalendar>> fetchCurrentYearCalendar() async {
+  Future<String> _getRubrics(String rubricsId) async {
     String json = '';
-    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: ['/calendar']);
+    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: [rubricsId]);
     if(queryResult.isNotEmpty){
       json = queryResult.first['json'] as String;
     } else {
-      final response = await get(Uri.parse('$apiUrl/calendar'));
+      final response = await get(Uri.parse('$apiUrl/$rubricsId'));
       if(response.statusCode == 200){
         json = response.body;
-        database.insert('rubrics', {'id' : '/calendar', 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
+        database.insert('rubrics', {'id' : rubricsId, 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
       }
     }
+    return json;
+  }
+
+  Future<List<LiturgicalCalendar>> fetchCurrentYearCalendar() async {
+    String json = await _getRubrics('calendar');
     if(json.isNotEmpty){
       return (jsonDecode(json) as List)
           .map(((data) => LiturgicalCalendar.fromJson(data)))
@@ -46,17 +51,7 @@ class MissalApiService{
   }
 
   Future<Ordo> fetchOrdo() async {
-    String json = '';
-    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: ['/ordo']);
-    if(queryResult.isNotEmpty){
-      json = queryResult.first['json'] as String;
-    } else {
-      final response = await get(Uri.parse('$apiUrl/ordo'));
-      if(response.statusCode == 200){
-        json = response.body;
-        database.insert('rubrics', {'id' : '/ordo', 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
-      }
-    }
+    String json = await _getRubrics('ordo');
     if(json.isNotEmpty){
       return Ordo.fromJson((jsonDecode(json) as List)[0] as Map<String,dynamic>);
     }
@@ -64,17 +59,7 @@ class MissalApiService{
   }
 
   Future<Ordo> fetchProper(String id) async {
-    String json = '';
-    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: ['/proper/$id']);
-    if(queryResult.isNotEmpty){
-      json = queryResult.first['json'] as String;
-    } else {
-      final response = await get(Uri.parse('$apiUrl/proper/$id'));
-      if(response.statusCode == 200){
-        json = response.body;
-        database.insert('rubrics', {'id' : '/proper/$id', 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
-      }
-    }
+    String json = await _getRubrics('proper/$id');
     if(json.isNotEmpty){
       return Ordo.fromJson((jsonDecode(json) as List)[0] as Map<String,dynamic>);
     }
