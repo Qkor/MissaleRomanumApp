@@ -22,7 +22,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
 
   bool appReady = false;
-  Widget homePageBody = const Center();
+  Widget homePageBody = const Center(child: CircularProgressIndicator());
   String homePageTitle = "Missale Romanum";
 
 
