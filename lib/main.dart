@@ -21,6 +21,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
+  bool appReady = false;
   Widget homePageBody = const Center();
   String homePageTitle = "Missale Romanum";
 
@@ -31,9 +32,15 @@ class _MyAppState extends State<MyApp> {
       title: 'Missale Romanum',
       theme: ThemeData.dark(),
       home: BlocProvider<NavBloc>(
-        create: (context) => NavBloc()..add(NavCalendarEvent(year: DateTime.now().year)),
+        create: (context) => NavBloc()..add(StartupEvent()),
         child: BlocListener<NavBloc, NavState>(
           listener: (context, state){
+            if(state is AppReadyState){
+              setState(() {
+                appReady = true;
+              });
+              BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
+            }
             if(state is ProperLoadedState){
               Navigator.push(
                 context,
@@ -69,7 +76,7 @@ class _MyAppState extends State<MyApp> {
             }
           },
           child: Scaffold(
-            appBar: CustomAppBar(title: homePageTitle),
+            appBar: CustomAppBar(title: homePageTitle, appReady: appReady),
             body: homePageBody
           ),
         ),

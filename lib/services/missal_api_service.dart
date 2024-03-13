@@ -2,28 +2,14 @@ import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:missale/models/calendar.dart';
 import 'package:missale/models/ordo.dart';
-import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class MissalApiService{
 
   String apiUrl = 'https://missalemeum.com/pl/api/v5';
-  late Database database;
+  final Database database;
 
-  databaseSetup() async {
-    var databasesPath = await getDatabasesPath();
-    String path = join(databasesPath, 'missale.db');
-    database = await openDatabase(
-      path, version: 1,
-      onCreate: (Database db, int version) async {
-        await db.execute('CREATE TABLE rubrics (id TEXT PRIMARY KEY, json TEXT)');
-      }
-    );
-  }
-
-  MissalApiService(){
-    databaseSetup();
-  }
+  MissalApiService({required this.database});
 
   Future<String> _getRubrics(String rubricsId) async {
     String json = '';

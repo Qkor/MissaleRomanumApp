@@ -1,12 +1,13 @@
 import 'package:equatable/equatable.dart';
-import '../models/calendar.dart';
-import '../models/ordo.dart';
+import 'package:missale/models/calendar.dart';
+import 'package:missale/models/ordo.dart';
 
 abstract class NavState extends Equatable {
   @override
   List<Object> get props => [];
 }
 class InitState extends NavState{}
+class AppReadyState extends NavState{}
 class LoadingState extends NavState{}
 class LoadingProperState extends NavState{}
 class FailureState extends NavState{}

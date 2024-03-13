@@ -25,7 +25,7 @@ class CalendarPage extends StatelessWidget{
           minVerticalPadding: 0,
           title: GestureDetector(
             onTap: (){
-              BlocProvider.of<NavBloc>(context).add(NavProperEvent(id: calendar[index].id));
+              BlocProvider.of<NavBloc>(context).add(ProperEvent(id: calendar[index].id));
             },
             child: Card(
               margin: EdgeInsets.zero,
