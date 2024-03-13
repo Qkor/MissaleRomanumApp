@@ -26,9 +26,19 @@ class MissalApiService{
   }
 
   Future<List<LiturgicalCalendar>> fetchCurrentYearCalendar() async {
-    final response = await get(Uri.parse('$apiUrl/calendar'));
-    if(response.statusCode == 200){
-      return (jsonDecode(response.body) as List)
+    String json = '';
+    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: ['/calendar']);
+    if(queryResult.isNotEmpty){
+      json = queryResult.first['json'] as String;
+    } else {
+      final response = await get(Uri.parse('$apiUrl/calendar'));
+      if(response.statusCode == 200){
+        json = response.body;
+        database.insert('rubrics', {'id' : '/calendar', 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
+      }
+    }
+    if(json.isNotEmpty){
+      return (jsonDecode(json) as List)
           .map(((data) => LiturgicalCalendar.fromJson(data)))
           .toList();
     }
@@ -54,11 +64,20 @@ class MissalApiService{
   }
 
   Future<Ordo> fetchProper(String id) async {
-    final response = await get(Uri.parse('$apiUrl/proper/$id'));
-    if(response.statusCode == 200){
-      return Ordo.fromJson((jsonDecode(response.body) as List)[0] as Map<String,dynamic>);
+    String json = '';
+    final queryResult = await database.query('rubrics', where: 'id=?', whereArgs: ['/proper/$id']);
+    if(queryResult.isNotEmpty){
+      json = queryResult.first['json'] as String;
+    } else {
+      final response = await get(Uri.parse('$apiUrl/proper/$id'));
+      if(response.statusCode == 200){
+        json = response.body;
+        database.insert('rubrics', {'id' : '/proper/$id', 'json': json}, conflictAlgorithm: ConflictAlgorithm.replace);
+      }
+    }
+    if(json.isNotEmpty){
+      return Ordo.fromJson((jsonDecode(json) as List)[0] as Map<String,dynamic>);
     }
     throw Exception();
   }
-
 }
