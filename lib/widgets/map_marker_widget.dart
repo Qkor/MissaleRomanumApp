@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class CustomMapMarkerWidget extends StatelessWidget{
   final String description;
@@ -14,7 +15,15 @@ class CustomMapMarkerWidget extends StatelessWidget{
       onTap: (){
         showDialog(context: context, builder: (BuildContext context){
           return AlertDialog(
-            title: Text(description, style: const TextStyle(fontSize: 16),),
+            title: Column(
+              children: [
+                Text(description, style: const TextStyle(fontSize: 16)),
+                InkWell(
+                    child: Text(link, style: const TextStyle(fontSize: 14, color: Colors.blue)),
+                    onTap: () => launchUrl(Uri.parse(link))
+                )
+              ],
+            ),
           );
         });
       },
