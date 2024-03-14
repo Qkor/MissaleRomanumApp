@@ -9,6 +9,8 @@ import 'package:missale/widgets/map_page.dart';
 import 'package:missale/widgets/ordo_page.dart';
 import 'package:missale/widgets/proper_page.dart';
 
+import 'models/map_marker.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -25,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   bool appReady = false;
   Widget homePageBody = const Center(child: CircularProgressIndicator());
   String homePageTitle = "Missale Romanum";
-
+  List<MapMarker> mapMarkers = [];
 
   @override
   Widget build(BuildContext context) {
@@ -38,6 +40,7 @@ class _MyAppState extends State<MyApp> {
           listener: (context, state){
             if(state is AppReadyState){
               setState(() {
+                mapMarkers = state.mapMarkers;
                 appReady = true;
               });
               BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
@@ -67,7 +70,7 @@ class _MyAppState extends State<MyApp> {
             }
             if(state is MapState){
               setState(() {
-                homePageBody = MapPage();
+                homePageBody = MapPage(markers: mapMarkers);
                 homePageTitle = "Msze Święte";
               });
             }

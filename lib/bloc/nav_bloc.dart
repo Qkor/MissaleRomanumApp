@@ -1,4 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:missale/models/map_marker.dart';
 import 'package:missale/services/missal_api_service.dart';
 import 'package:missale/models/calendar.dart';
 import 'package:missale/models/ordo.dart';
@@ -30,7 +31,8 @@ class NavBloc extends Bloc<NavEvent, NavState>{
       }
     );
     service = MissalApiService(database: database);
-    emit(AppReadyState());
+    final List<MapMarker> mapMarkers = await service.getMapMarkers();
+    emit(AppReadyState(mapMarkers: mapMarkers));
   }
 
   _getCalendar(CalendarEvent event, Emitter<NavState> emit) async {

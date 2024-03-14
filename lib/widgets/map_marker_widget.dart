@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CustomMapMarker extends StatelessWidget{
+class CustomMapMarkerWidget extends StatelessWidget{
   final String description;
+  final String link;
   final String type;
 
-  const CustomMapMarker({super.key, required this.description, required this.type});
+  const CustomMapMarkerWidget({super.key, required this.description, required this.type, required this.link});
 
   @override
   Widget build(BuildContext context) {

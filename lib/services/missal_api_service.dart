@@ -1,6 +1,8 @@
 import 'dart:convert';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:missale/models/calendar.dart';
+import 'package:missale/models/map_marker.dart';
 import 'package:missale/models/ordo.dart';
 import 'package:sqflite/sqflite.dart';
 
@@ -30,8 +32,8 @@ class MissalApiService{
     String json = await _getRubrics('calendar/$year');
     if(json.isNotEmpty){
       return (jsonDecode(json) as List)
-          .map(((data) => LiturgicalCalendar.fromJson(data)))
-          .toList();
+        .map(((data) => LiturgicalCalendar.fromJson(data)))
+        .toList();
     }
     throw Exception();
   }
@@ -48,6 +50,16 @@ class MissalApiService{
     String json = await _getRubrics('proper/$id');
     if(json.isNotEmpty){
       return Ordo.fromJson((jsonDecode(json) as List)[0] as Map<String,dynamic>);
+    }
+    throw Exception();
+  }
+
+  Future<List<MapMarker>> getMapMarkers() async {
+    final String json = await rootBundle.loadString('assets/map_markers.json');
+    if(json.isNotEmpty){
+      return (jsonDecode(json) as List)
+        .map(((data) => MapMarker.fromJson(data)))
+        .toList();
     }
     throw Exception();
   }

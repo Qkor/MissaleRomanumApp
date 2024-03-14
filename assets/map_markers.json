@@ -1,0 +1,30 @@
+[
+  {
+    "latitude": 52.393413248614884,
+    "longitude": 16.920842572176696,
+    "description": "Rynek Wildecki 4, Parafia Maryi Królowej.",
+    "type": "indult",
+    "link": "https://www.parafia-maryi-krolowej.poznan.pl/"
+  },
+  {
+    "latitude": 52.40910965801039,
+    "longitude": 16.935100044363203,
+    "description": "ul. Żydowska 34, Sanktuarium Najświętszej Krwi Pana Jezusa",
+    "type": "indult",
+    "link": "https://trzyhostie.pl/"
+  },
+  {
+    "latitude": 52.413534119780785,
+    "longitude": 16.90321854578913,
+    "description": "ul. Kościelna 3, Parafia p.w. Najświętszego Serca Jezusa i Świętego Floriana",
+    "type": "indult",
+    "link": "http://www.tradycjapoznan.pl/"
+  },
+  {
+    "latitude": 52.4004046835821,
+    "longitude": 16.859684581345576,
+    "description": "ul. Ptasia 14A, kaplica FSSPX",
+    "type": "fsspx",
+    "link": "https://www.piusx.org.pl/kaplice/poznan"
+  }
+]
