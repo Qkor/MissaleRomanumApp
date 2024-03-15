@@ -8,7 +8,8 @@ class MapMarker extends Marker{
     return MapMarker(
       point: LatLng(json['latitude'], json['longitude']),
       child: CustomMapMarkerWidget(
-        description: json['description'],
+        name: json['name'],
+        address: json['address'],
         type: json['type'],
         link: json['link'],
       )
