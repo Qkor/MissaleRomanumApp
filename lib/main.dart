@@ -24,7 +24,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
 
   bool appReady = false;
-  Widget homePageBody = const LoadingPage();
   List<MapMarker> mapMarkers = [];
 
   @override
@@ -49,26 +48,6 @@ class _MyAppState extends State<MyApp> {
                 MaterialPageRoute(builder: (context) => ProperPage(proper: state.proper)),
               );
             }
-            if(state is LoadingState){
-              setState(() {
-                homePageBody = const LoadingPage();
-              });
-            }
-            if(state is CalendarLoadedState){
-              setState(() {
-                homePageBody = CalendarPage(calendar: state.calendar);
-              });
-            }
-            if(state is OrdoLoadedState){
-              setState(() {
-                homePageBody = OrdoPage(ordo: state.ordo);
-              });
-            }
-            if(state is MapState){
-              setState(() {
-                homePageBody = MapPage(markers: mapMarkers);
-              });
-            }
             if(state is FailureState){
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
@@ -80,7 +59,23 @@ class _MyAppState extends State<MyApp> {
               );
             }
           },
-          child: homePageBody,
+          child: BlocBuilder<NavBloc, NavState>(
+            buildWhen: (previous, current) =>
+              current is CalendarLoadedState ||
+              current is OrdoLoadedState ||
+              current is MapState ||
+              current is LoadingState,
+            builder: (context, state){
+              if(state is CalendarLoadedState){
+                return CalendarPage(calendar: state.calendar);
+              } else if (state is OrdoLoadedState){
+                return OrdoPage(ordo: state.ordo);
+              } else if(state is MapState){
+                return MapPage(markers: mapMarkers);
+              }
+              return const LoadingPage();
+            },
+          ),
         ),
       )
     );
