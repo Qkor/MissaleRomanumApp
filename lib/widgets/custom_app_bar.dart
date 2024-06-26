@@ -5,8 +5,7 @@ import 'package:missale/bloc/nav_event.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
   final String title;
-  final bool appReady;
-  const CustomAppBar({super.key, required this.title, required this.appReady});
+  const CustomAppBar({super.key, required this.title});
   @override
   Size get preferredSize => const Size.fromHeight(50);
 
@@ -15,7 +14,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
     return AppBar(
       centerTitle: true,
       title: Text(title),
-      leading: !appReady ? null : PopupMenuButton(
+      leading: PopupMenuButton(
         icon: const Icon(Icons.menu),
         onSelected: (value){
           switch(value){

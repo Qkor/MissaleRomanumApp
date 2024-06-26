@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:missale/widgets/ordo_page.dart';
 import 'package:missale/models/ordo.dart';
+import 'package:missale/widgets/ordo_page_content.dart';
 
 class ProperPage extends StatelessWidget{
   final Ordo proper;
@@ -11,7 +11,7 @@ class ProperPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(proper.info.title), centerTitle: true),
-      body: OrdoPage(ordo: proper),
+      body: OrdoPageContent(ordo: proper),
     );
   }
 
