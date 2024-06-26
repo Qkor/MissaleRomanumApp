@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:xml/xml.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:missale/models/calendar.dart';
@@ -55,12 +56,17 @@ class MissalApiService{
   }
 
   Future<List<MapMarker>> getMapMarkers() async {
-    final String json = await rootBundle.loadString('assets/map_markers.json');
-    if(json.isNotEmpty){
-      return (jsonDecode(json) as List)
-        .map(((data) => MapMarker.fromJson(data)))
-        .toList();
-    }
-    throw Exception();
+    // final String json = await rootBundle.loadString('assets/map_markers.json');
+    // if(json.isNotEmpty){
+    //   return (jsonDecode(json) as List)
+    //     .map(((data) => MapMarker.fromJson(data)))
+    //     .toList();
+    // }
+    // throw Exception();
+
+    final String xml = await rootBundle.loadString('assets/map_markers.kml');
+    final document = XmlDocument.parse(xml);
+    final placemarks = document.findAllElements('Placemark');
+    return placemarks.map(((data) => MapMarker.fromXml(data))).toList();
   }
 }

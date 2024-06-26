@@ -5,14 +5,13 @@ class CustomMapMarkerWidget extends StatelessWidget{
   final String name;
   final String address;
   final String link;
-  final String type;
 
-  const CustomMapMarkerWidget({super.key, required this.name, required this.address, required this.type, required this.link});
+  const CustomMapMarkerWidget({super.key, required this.name, required this.address, required this.link});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      child: Icon(Icons.location_on, color: type=='fsspx' ? Colors.redAccent : Colors.blue),
+      child: const Icon(Icons.location_on, color: Colors.blue, size: 40,),
       onTap: (){
         showDialog(context: context, builder: (BuildContext context){
           return AlertDialog(

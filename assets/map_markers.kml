@@ -1,0 +1,4681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Msza Tradycyjna w strukturach diecezji polskich</name>
+    <description><![CDATA[PRZECZYTAJ TEN OPIS:<br>Baza informacji Stowarzyszenia Una Voce Polonia<br>Coś się nie zgadza? napisz na FB: <br>https://www.facebook.com/people/NRL-Ruch-Mszy-Tradycyjnej-w-Polsce/100064046372975/<br><br>Mapa nie zawiera Mszy odprawianych przez Bractwo Kapłańskie św. Piusa X, które są publikowane na stronie FSSPX: http://www.piusx.org.pl/kaplice<br><br>zielone - Msza codzienna (lub prawie codzienna)<br>żółte - Msza coniedzielna (także coniedzielne z przerwą wakacyjną)<br>niebieskie - Msze bez coniedzielnej celebracji w tym celebracje bez stałego grafiku<br><br>Uwaga 1: Terminy i godziny Mszy często ulegają zmianie. Podróżując pierwszy raz do nowego miejsca dobrze jest potwierdzić datę i godzinę na podanej stronie www lub nawet telefonicznie z gospodarzem kościoła - zwłaszcza w okresie wakacyjnym.<br><br>Uwaga 2. Miejsca sprawowania Mszy św. są często blisko siebie. Sugerujemy powiększenie mapki, aby zobaczyć wszystkie lokalizacje. <br>]]></description>
+    <Style id="icon-959-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-0BA9CC-normal">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-0BA9CC-highlight">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-0BA9CC">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-0BA9CC-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-0BA9CC-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-959-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-959-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-959-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-959-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-959-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-960-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-960-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-960-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-960-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-960-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-009D57-normal">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-009D57-highlight">
+      <IconStyle>
+        <color>ff579d00</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-009D57">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-009D57-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-009D57-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-0BA9CC-normal">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-0BA9CC-highlight">
+      <IconStyle>
+        <color>ffcca90b</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-0BA9CC">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-0BA9CC-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-0BA9CC-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-4186F0-normal">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-4186F0-highlight">
+      <IconStyle>
+        <color>fff08641</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-4186F0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-4186F0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-4186F0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-62AF44-normal">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-62AF44-highlight">
+      <IconStyle>
+        <color>ff44af62</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-62AF44">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-62AF44-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-62AF44-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-961-F4EB37-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-961-F4EB37-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-961-F4EB37">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-961-F4EB37-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-961-F4EB37-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Msze Summorum Pontificum</name>
+      <Placemark>
+        <name>Kościół  Środowisk Twórczych pw. św. Andrzeja Apostoła i Brata Alberta</name>
+        <description><![CDATA[Miejscowość: Warszawa<br>Lokalizacja: Plac Teatralny 18  <br>Dni i godziny: niedziela godz. 8.00 <br>Od poniedziałku do piątku o godzinie 7.00 (lub 6.45 według ogłoszeń)<br>W soboty – według aktualnych ogłoszeń na stronie www<br>www: http://warszawa.instytutdobregopasterza.pl/<br>lub na FB: https://www.facebook.com/Msza-%C5%9Awi%C4%99ta-trydencka-w-ko%C5%9Bciele-%C5%9Brodowisk-tw%C3%B3rczych-192624664665148<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Warszawska<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Warszawa</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Plac Teatralny 18  </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 8.00 
+Od poniedziałku do piątku o godzinie 7.00 (lub 6.45 według ogłoszeń)
+W soboty – według aktualnych ogłoszeń na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>http://warszawa.instytutdobregopasterza.pl/
+lub na FB: https://www.facebook.com/Msza-%C5%9Awi%C4%99ta-trydencka-w-ko%C5%9Bciele-%C5%9Brodowisk-tw%C3%B3rczych-192624664665148</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.008268,52.2441895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kolegiata Świętego Krzyża</name>
+        <description><![CDATA[Miejscowość: Wrocław<br>Lokalizacja: pl. Kościelny 1<br>Dni i godziny: Niedziele – godz. 9.00, 18.00 (lub według ogłoszeń)<br>Dni powszednie - godz. 7.00 (lub według ogłoszeń)<br>www: http://www.tradycja.archidiecezja.wroc.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Wrocławska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wrocław</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. Kościelny 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziele – godz. 9.00, 18.00 (lub według ogłoszeń)
+Dni powszednie - godz. 7.00 (lub według ogłoszeń)</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.tradycja.archidiecezja.wroc.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Wrocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.0441397,51.1150645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. Imienia Najświętszej Maryi Panny i św. Stanisława B.M.</name>
+        <description><![CDATA[Miejscowość: Białystok<br>Lokalizacja: ul. Szkolna 2<br>Dni i godziny: niedziela godz. 8.00 oraz 10.30 (śpiewana)<br>dni powszednie godz. 7.00 i 18.00 (lub wg ogłoszeń na www)<br>www: http://tradycjakatolicka.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Białostocka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-960-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Białystok</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Szkolna 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 8.00 oraz 10.30 (śpiewana)
+dni powszednie godz. 7.00 i 18.00 (lub wg ogłoszeń na www)</value>
+          </Data>
+          <Data name="www">
+            <value>http://tradycjakatolicka.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Białostocka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            23.0848024,53.1245778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Klemensa Dworzaka</name>
+        <description><![CDATA[Miejscowość: Warszawa<br>Lokalizacja: Karolkowa 49<br>Dni i godziny: niedziela godz. 6.45 oraz 14.00<br>Dni powszednie godziny według terminarza na stronie: <br>www: http://mszatrydencka.waw.pl<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Warszawska<br>Data ostatniej zmiany: 03.0.2024]]></description>
+        <styleUrl>#icon-959-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Warszawa</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Karolkowa 49</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 6.45 oraz 14.00
+Dni powszednie godziny według terminarza na stronie: </value>
+          </Data>
+          <Data name="www">
+            <value>http://mszatrydencka.waw.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.0.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.97657,52.234357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Imienia Maryi</name>
+        <description><![CDATA[Miejscowość: Częstochowa<br>Lokalizacja: Aleja Najświętszej Maryi Panny 56<br>Dni i godziny: niedziela godz. 13.30<br>w tygodniu godz. 7.15   (lub według ogłoszeń na www)<br><br>www: http://tradi.czest.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Częstochowska<br>Data ostatniej zmiany: 02.06.2024]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Częstochowa</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Aleja Najświętszej Maryi Panny 56</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 13.30
+w tygodniu godz. 7.15   (lub według ogłoszeń na www)
+</value>
+          </Data>
+          <Data name="www">
+            <value>http://tradi.czest.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Częstochowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.1094149,50.8123673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Niepokalanego Poczęcia NMP</name>
+        <description><![CDATA[Miejscowość: Lublin<br>Lokalizacja: ul. Staszica 16a (obok szpitala)<br>Dni i godziny: niedziele godz. 9.00 <br>w święta przypadające w dni wolne od pracy godz. 9.00<br>w tygodniu godz. 19.00<br>Dodatkowe celebracje według ogłoszeń zamieszczanych na stronie www<br>www: www.introibo.pl<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Lubelska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Lublin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Staszica 16a (obok szpitala)</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele godz. 9.00 
+w święta przypadające w dni wolne od pracy godz. 9.00
+w tygodniu godz. 19.00
+Dodatkowe celebracje według ogłoszeń zamieszczanych na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>www.introibo.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Lubelska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.563343,51.250487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Bożej Wspomożenia Wiernych </name>
+        <description><![CDATA[Miejscowość: Lublin<br>Lokalizacja: Kalinowszczyzna 3<br>Dni i godziny: dni powszednie o godz. 7.00 (górny kościół)<br>niedziela, godz. 17.00 (górny kościół)<br>www: https://salezjanie.lublin.pl/parafia/msze-swiete-i-nabozenstwa/msza-trydencka<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Lubelska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Lublin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kalinowszczyzna 3</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>dni powszednie o godz. 7.00 (górny kościół)
+niedziela, godz. 17.00 (górny kościół)</value>
+          </Data>
+          <Data name="www">
+            <value>https://salezjanie.lublin.pl/parafia/msze-swiete-i-nabozenstwa/msza-trydencka</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Lubelska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.5781163,51.2531682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. Wszystkich Świętych (przy kościele pw. Chrystusa Odkupiciela)</name>
+        <description><![CDATA[Miejscowość: Łódź<br>Lokalizacja: ul. Żubardzka 28<br>Dni i godziny: niedziela godz. 8.30, 11.00 oraz godz. 16.00 (druga niedziela miesiąca godz. 19.00 lub godz. 20.00 w okresie letnim - brak Mszy o godz. 16) ; środa godz. 19.00, pozostałe dni wg ogłoszeń na stronie internetowej lub FB<br><br>www: https://www.tradycjalodz.com/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łódzka<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-960-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Łódź</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Żubardzka 28</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 8.30, 11.00 oraz godz. 16.00 (druga niedziela miesiąca godz. 19.00 lub godz. 20.00 w okresie letnim - brak Mszy o godz. 16) ; środa godz. 19.00, pozostałe dni wg ogłoszeń na stronie internetowej lub FB
+</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.tradycjalodz.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łódzka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.4134443,51.7861071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica w parafii pw. św. Jadwigi Królowej</name>
+        <description><![CDATA[Miejscowość: Płock<br>Lokalizacja: ul. Kossobudzkiego 10 ; kaplica mieszcząca się w prawym skrzydle kościoła<br>Dni i godziny: niedziela godz. 10.00<br>W tygodniu nieregularnie:<br>informacje na stronie www<br><br>www: https://www.facebook.com/MszaTrydenckaWPlocku/photos/a.536021483094245/1611808595515523/?type=3&theater<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Płocka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Płock</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Kossobudzkiego 10 ; kaplica mieszcząca się w prawym skrzydle kościoła</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 10.00
+W tygodniu nieregularnie:
+informacje na stronie www
+</value>
+          </Data>
+          <Data name="www">
+            <value><![CDATA[https://www.facebook.com/MszaTrydenckaWPlocku/photos/a.536021483094245/1611808595515523/?type=3&theater]]></value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Płocka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.6884652,52.5588629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Barbary</name>
+        <description><![CDATA[Miejscowość: Gdańsk<br>Lokalizacja: ul.  Długie Ogrody 19<br>Dni i godziny: niedziele i święta nakazane - godz. 15.00<br>środy i czwartki - godz. 19.30<br>www: http://versusdeum.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: 29 sty 2023]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gdańsk</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul.  Długie Ogrody 19</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele i święta nakazane - godz. 15.00
+środy i czwartki - godz. 19.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>29 sty 2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.663861,54.347918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Krzyża</name>
+        <description><![CDATA[Miejscowość: Rzeszów<br>Lokalizacja: ul. 3 Maja<br>Dni i godziny: niedziela godz.15.00; <br>Inne dni, w tym święta nakazane, pierwszy piątek i pierwsza sobota wg ogłoszeń na stronie www lub FB<br>www: http://tradsi.blogspot.com/ https://www.facebook.com/profile.php?id=100064312644431<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Rzeszowska<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Rzeszów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. 3 Maja</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz.15.00; 
+Inne dni, w tym święta nakazane, pierwszy piątek i pierwsza sobota wg ogłoszeń na stronie www lub FB</value>
+          </Data>
+          <Data name="www">
+            <value>http://tradsi.blogspot.com/ https://www.facebook.com/profile.php?id=100064312644431</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Rzeszowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.001195,50.035808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Serca Pana Jezusa</name>
+        <description><![CDATA[Miejscowość: Bydgoszcz<br>Lokalizacja: Plac Piastowski 5<br>Dni i godziny: Niedziela 14.00, pierwsza środa i czwartek 19.30. Pierwszy piątek i sobota 6.00. Oktawy i wigilie oraz swieta I i II klasy 6.00 lub 19.30 <br>www: https://www.facebook.com/profile.php?id=100074749785111<br><br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Bydgoska<br>Data ostatniej zmiany: 3.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Bydgoszcz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Plac Piastowski 5</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziela 14.00, pierwsza środa i czwartek 19.30. Pierwszy piątek i sobota 6.00. Oktawy i wigilie oraz swieta I i II klasy 6.00 lub 19.30 </value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=100074749785111
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bydgoska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>3.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.998223,53.131826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Maryi Królowej</name>
+        <description><![CDATA[Miejscowość: Poznań<br>Lokalizacja: ul. Rynek Wildecki 4<br>Dni i godziny: niedziela g. 17.00 <br>www: https://www.parafia-maryi-krolowej.poznan.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Poznańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Poznań</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Rynek Wildecki 4</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela g. 17.00 </value>
+          </Data>
+          <Data name="www">
+            <value>https://www.parafia-maryi-krolowej.poznan.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Poznańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.919981,52.393611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Stanisława</name>
+        <description><![CDATA[Miejscowość: Siedlce<br>Lokalizacja: ul. Floriańska 3<br>Dni i godziny: niedziela godz. 15.30; święta wg ogłoszeń<br>www: https://www.facebook.com/MszaTrydenckaWSiedlcach?locale=pl_PL<br><br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Siedlecka<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Siedlce</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Floriańska 3</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 15.30; święta wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/MszaTrydenckaWSiedlcach?locale=pl_PL
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Siedlecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.2828274,52.1679834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Podwyższenia Krzyża Świętego </name>
+        <description><![CDATA[Miejscowość: Rumia<br>Lokalizacja: ul. Kościelna 20<br>Dni i godziny: niedziele - godzina zmienna, według ogłoszeń<br>www: http://versusdeum.pl/<br>https://www.facebook.com/versusdeum<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Rumia</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Kościelna 20</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele - godzina zmienna, według ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/
+https://www.facebook.com/versusdeum</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.403258,54.58162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół św. Antoniego i Matki Bożej Anielskiej</name>
+        <description><![CDATA[Miejscowość: Biała-Podlaska<br>Lokalizacja: ul. Narutowicza 37      <br>Dni i godziny: niedziela godz. 13.30 <br>www: http://www.antoni-kapucyni.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Siedlecka<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Biała-Podlaska</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Narutowicza 37      </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 13.30 </value>
+          </Data>
+          <Data name="www">
+            <value>http://www.antoni-kapucyni.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Siedlecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            23.120653,52.03173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Józefa, Oblubieńca NMP</name>
+        <description><![CDATA[Miejscowość: Koszalin<br>Lokalizacja: ul.Biskupa Czesława Domina 10<br>Dni i godziny: niedziela, nieregularnie<br>Informacje o zmianach terminów, godzin i odwołaniu Mszy na stronie www<br>www: https://www.facebook.com/tradycja.koszalin/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Koszalińsko-Kołobrzeska<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Koszalin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul.Biskupa Czesława Domina 10</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela, nieregularnie
+Informacje o zmianach terminów, godzin i odwołaniu Mszy na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/tradycja.koszalin/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Koszalińsko-Kołobrzeska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.1809086,54.1885638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Zbawiciela</name>
+        <description><![CDATA[Miejscowość: Zielona Góra<br>Lokalizacja: Aleja Niepodległości<br>Kaplica Adoracji Najświętszego Sakramentu (tzw. kościół dolny)<br>Dni i godziny: niedziela o godz. 9.00 lub 14.30<br>www: http://mszatrydencka-lubuskie.pl/ ; https://www.facebook.com/mszatrydenckawzielonagora<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Zielonogórsko-Gorzowska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Zielona Góra</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Aleja Niepodległości
+Kaplica Adoracji Najświętszego Sakramentu (tzw. kościół dolny)</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela o godz. 9.00 lub 14.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://mszatrydencka-lubuskie.pl/ ; https://www.facebook.com/mszatrydenckawzielonagora</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Zielonogórsko-Gorzowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.5108443,51.943012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Maksymiliana Kolbego</name>
+        <description><![CDATA[Miejscowość: Grudziądz<br>Lokalizacja: Wyspiańskiego 1, dolny kościół. <br>Dni i godziny: niedziela godz. 16.00, co drugi tydzień wg ogłoszeń na stronie www<br>W tygodniu wg. ogłoszeń<br>www: https://www.facebook.com/Duszpasterstwo-Tradycji-%C5%81aci%C5%84skiej-w-Grudzi%C4%85dzu-1854206891481168/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Toruńska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Grudziądz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Wyspiańskiego 1, dolny kościół. </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 16.00, co drugi tydzień wg ogłoszeń na stronie www
+W tygodniu wg. ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Duszpasterstwo-Tradycji-%C5%81aci%C5%84skiej-w-Grudzi%C4%85dzu-1854206891481168/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Toruńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.7339345,53.4618617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Stanisława</name>
+        <description><![CDATA[Miejscowość: Włocławek<br>Lokalizacja: Żeromskiego 19/21; ołtarz boczny  św. Andrzeja Boboli <br>Dni i godziny: niedziela godz. 15.00<br>www: https://www.facebook.com/trydentwloclawek/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Włocławska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Włocławek</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Żeromskiego 19/21; ołtarz boczny  św. Andrzeja Boboli </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/trydentwloclawek/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Włocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.0542977,52.6489801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Wojciecha i św. Stanisława</name>
+        <description><![CDATA[Miejscowość: Kalisz<br>Lokalizacja: Kolegialna 2<br>Dni i godziny: Niedziele i święta nakazane, godz. 13.30<br>www: www.facebook.com/mszatrydenckakalisz<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Kaliska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kalisz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kolegialna 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziele i święta nakazane, godz. 13.30</value>
+          </Data>
+          <Data name="www">
+            <value>www.facebook.com/mszatrydenckakalisz</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Kaliska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.0923317,51.7627101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Katarzyny</name>
+        <description><![CDATA[Miejscowość: Zamość<br>Lokalizacja: pl. Jana Jaroszewicza 1<br>Dni i godziny: druga i czwarta niedziela godz. 18.30 <br>www: https://www.katarzynazamosc.pl/kategorie/nabozenstwa<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Zamojsko-Lubaczowska<br>Data ostatniej zmiany: 03,06.2024]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Zamość</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. Jana Jaroszewicza 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga i czwarta niedziela godz. 18.30 </value>
+          </Data>
+          <Data name="www">
+            <value>https://www.katarzynazamosc.pl/kategorie/nabozenstwa</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Zamojsko-Lubaczowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03,06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            23.252563,50.71877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Wniebowzięcia NMP i bł. Ks. Stefana W. Frelichowskiego</name>
+        <description><![CDATA[Miejscowość: Toruń<br>Lokalizacja: Panny Marii 2<br>Dni i godziny: niedziela 14.00, co drugi tydzień wg ogłoszeń na stronie www<br>www: http://tridentinatorun.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Toruńska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Toruń</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Panny Marii 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela 14.00, co drugi tydzień wg ogłoszeń na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>http://tridentinatorun.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Toruńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6024416,53.0110283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół akademicki pw. św. Józefa</name>
+        <description><![CDATA[Miejscowość: Tarnów<br>Lokalizacja: ul. Dwernickiego 1<br>Dni i godziny: pierwsza i trzecia niedziela 10:30<br>www: trydencka.tarnow.pl<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Tarnowska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Tarnów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Dwernickiego 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza i trzecia niedziela 10:30</value>
+          </Data>
+          <Data name="www">
+            <value>trydencka.tarnow.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Tarnowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.992062,50.01917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bazylika Mniejsza pw. Wniebowzięcia NMP Katedra Białostocka</name>
+        <description><![CDATA[Miejscowość: Białystok<br>Lokalizacja: ul. Kościelna 2; tzw. stary Kościół Farny, Zespół bazyliki Archikatedralnej Wniebowzięcia NMP<br>Dni i godziny: trzecia niedziela miesiąca godz. 12.30<br><br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Białostocka<br>Data ostatniej zmiany: 11.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Białystok</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Kościelna 2; tzw. stary Kościół Farny, Zespół bazyliki Archikatedralnej Wniebowzięcia NMP</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca godz. 12.30
+</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Białostocka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>11.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            23.1646762,53.1340011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica szpitalna Szpitala Powiatowego</name>
+        <description><![CDATA[Miejscowość: Września<br>Lokalizacja: ul. Słowackiego 2<br>Dni i godziny: trzecia i czwarta niedziela miesiąca, godz. 15.30 ; także piątki i soboty przed tymi niedzielami godz. 18.00; godz. 17.00 adoracja i spowiedź<br>www: fssp.pl<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gnieźnieńska<br>Data ostatniej zmiany: 24.03.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Września</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Słowackiego 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia i czwarta niedziela miesiąca, godz. 15.30 ; także piątki i soboty przed tymi niedzielami godz. 18.00; godz. 17.00 adoracja i spowiedź</value>
+          </Data>
+          <Data name="www">
+            <value>fssp.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gnieźnieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>24.03.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.561646,52.318553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Wniebowzięcia NMP</name>
+        <description><![CDATA[Miejscowość: Wodzisław Śląski<br>Lokalizacja: ul. Kościelna 1<br>Dni i godziny: czwarta niedziela miesiąca godz. 13.00<br>www: www.trydencka-wodzislaw.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Katowicka<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wodzisław Śląski</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Kościelna 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>czwarta niedziela miesiąca godz. 13.00</value>
+          </Data>
+          <Data name="www">
+            <value>www.trydencka-wodzislaw.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Katowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.462267,50.003912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół Caritas Diecezji Świdnickiej pw. Krzyża Świętego</name>
+        <description><![CDATA[Miejscowość: Świdnica<br>Lokalizacja: ul. Westerplatte 2-4<br>Dni i godziny: druga, czwarta (i piąta – jeżeli jest) niedziela miesiąca oraz święta nakazane, godz. 18.00: Msza św. śpiewana<br>święta I klasy nienakazane i wybrane święta II klasy – Msza śpiewana lub recytowana wg bieżących ogłoszeń duszpasterza<br>www: http://www.tradycja-swidnica.org.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Świdnicka<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Świdnica</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Westerplatte 2-4</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga, czwarta (i piąta – jeżeli jest) niedziela miesiąca oraz święta nakazane, godz. 18.00: Msza św. śpiewana
+święta I klasy nienakazane i wybrane święta II klasy – Msza śpiewana lub recytowana wg bieżących ogłoszeń duszpasterza</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.tradycja-swidnica.org.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Świdnicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.494384,50.841259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. M.B. Królowej Korony Polskiej – OO. Cystersi</name>
+        <description><![CDATA[Miejscowość: Gdańsk<br>Lokalizacja: Oliwa, ul. Polanki 131<br>Dni i godziny: pierwszy piątek miesiąca godz. 19.30<br>www: http://versusdeum.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gdańsk</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Oliwa, ul. Polanki 131</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwszy piątek miesiąca godz. 19.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.559234,54.407617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Ducha Świetego</name>
+        <description><![CDATA[Miejscowość: Pobiedziska<br>Lokalizacja: ul. Władysława Jagiełły<br>Dni i godziny: trzecia niedziela miesiąca godz. 19.00<br>www: http://www.fssp.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gnieźnieńska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Pobiedziska</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Władysława Jagiełły</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca godz. 19.00</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.fssp.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gnieźnieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.284524,52.477305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jakuba</name>
+        <description><![CDATA[Miejscowość: Racibórz<br>Lokalizacja: Pl. Dominikański 1<br>Dni i godziny: Trzecia niedziela w miesiącu godz. 13.00<br>www: https://www.facebook.com/trydencka.raciborz/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Opolska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Racibórz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Pl. Dominikański 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Trzecia niedziela w miesiącu godz. 13.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/trydencka.raciborz/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Opolska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.2209808,50.0923755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Św. Anny</name>
+        <description><![CDATA[Miejscowość: Nowy Targ<br>Lokalizacja: Zacisze 17<br>Dni i godziny: niedziela godz. 8.00, <br>www: fssp.pl https://www.facebook.com/mszatrydenckanowytarg/  <br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Krakowska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Nowy Targ</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Zacisze 17</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 8.00, </value>
+          </Data>
+          <Data name="www">
+            <value>fssp.pl https://www.facebook.com/mszatrydenckanowytarg/  </value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Krakowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.026939,49.486946,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Św. Antoniego Padewskiego</name>
+        <description><![CDATA[Miejscowość: Kadyny<br>Lokalizacja: Kadyny 30<br>Dni i godziny: niedziele i święta godziny wg ogłoszeń na stronie www (oprócz drugiej niedzieli miesiąca)<br>www: https://www.facebook.com/NFRRElblag/?fref=ts<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Elbląska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kadyny</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kadyny 30</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele i święta godziny wg ogłoszeń na stronie www (oprócz drugiej niedzieli miesiąca)</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/NFRRElblag/?fref=ts</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Elbląska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.488693,54.292562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Boskiej Królowej Polski - Kaplica Miłosierdzia Bożego</name>
+        <description><![CDATA[Miejscowość: Elbląg<br>Lokalizacja: Robotnicza 69 , <br>Dni i godziny: druga niedziela miesiąca godz. 14.30<br>www: https://www.facebook.com/NFRRElblag/?fref=ts<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Elbląska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Elbląg</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Robotnicza 69 , </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga niedziela miesiąca godz. 14.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/NFRRElblag/?fref=ts</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Elbląska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.400146,54.169902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. św. Jana Kantego</name>
+        <description><![CDATA[Miejscowość: Kęty<br>Lokalizacja: ul. Mickiewicza 4<br>Dni i godziny: Każda pierwsza i trzecia niedziela miesiąca o godz. 11.30<br>www: https://pl-pl.facebook.com/msza.trydencka.w.ketach/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Bielsko-Żywiecka<br>Data ostatniej zmiany: 06.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kęty</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Mickiewicza 4</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Każda pierwsza i trzecia niedziela miesiąca o godz. 11.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://pl-pl.facebook.com/msza.trydencka.w.ketach/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bielsko-Żywiecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>06.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.2211545,49.8845659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Niepokalanego Poczęcia NMP</name>
+        <description><![CDATA[Miejscowość: Gdańsk<br>Lokalizacja: ul. Łąkowa 34A<br>Dni i godziny: soboty - godz. 19.30<br>www: http://versusdeum.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: 29 sty 23]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gdańsk</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Łąkowa 34A</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>soboty - godz. 19.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>29 sty 23</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6587404,54.3413753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Wojciecha</name>
+        <description><![CDATA[Miejscowość: Droginia<br>Lokalizacja: Droginia 161,   <br>Dni i godziny: niedziela i święta godz. 11.30 ; pierwszy piątek i pierwsza sobota miesiąca godz. 19.00<br>www: https://www.facebook.com/TrydentMyslenice/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Krakowska<br>Data ostatniej zmiany: 04.06.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Droginia</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Droginia 161,   </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela i święta godz. 11.30 ; pierwszy piątek i pierwsza sobota miesiąca godz. 19.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/TrydentMyslenice/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Krakowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>04.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.0275846,49.8547145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Świętej Trójcy</name>
+        <description><![CDATA[Miejscowość: Kielce<br>Lokalizacja: ul. Jana Pawła II 7 ; Kościół Seminaryjny,<br>Dni i godziny: Według ogłoszeń, 3 razy w miesiącu<br>www: https://wsd.kielce.pl/kosciol/aktualnosci/?fbclid=IwAR2jWQ-wf465nE8Xh4Z_36d_X5oc1Umqse4ZTdDJhvAsA0Cny8vJMJ2vV0o<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Kielecka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kielce</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Jana Pawła II 7 ; Kościół Seminaryjny,</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Według ogłoszeń, 3 razy w miesiącu</value>
+          </Data>
+          <Data name="www">
+            <value>https://wsd.kielce.pl/kosciol/aktualnosci/?fbclid=IwAR2jWQ-wf465nE8Xh4Z_36d_X5oc1Umqse4ZTdDJhvAsA0Cny8vJMJ2vV0o</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Kielecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.6294596,50.8674861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. NMP Matki Kościoła</name>
+        <description><![CDATA[Miejscowość: Bełchatów<br>Lokalizacja: Al. kard. St. Wyszyńskiego 42.<br>Dni i godziny: niedziela 15.30<br>www: https://www.facebook.com/Tridentina-w-Be%C5%82chatowie-358274141035371/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łódzka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Bełchatów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Al. kard. St. Wyszyńskiego 42.</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela 15.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Tridentina-w-Be%C5%82chatowie-358274141035371/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łódzka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.3545034,51.3582853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Boskiej Bolesnej</name>
+        <description><![CDATA[Miejscowość: Rybnik<br>Lokalizacja: Franciszka Rybnickiego 2<br>Dni i godziny: Każda 2-ga niedziela miesiąca godz. 14.00<br>www: http://trydencka-wodzislaw.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Katowicka<br>Data ostatniej zmiany: 06.11.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Rybnik</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Franciszka Rybnickiego 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Każda 2-ga niedziela miesiąca godz. 14.00</value>
+          </Data>
+          <Data name="www">
+            <value>http://trydencka-wodzislaw.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Katowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>06.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.5425547,50.0985444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Wniebowzięcia NMP</name>
+        <description><![CDATA[Miejscowość: Drohiczyn<br>Lokalizacja: ul. Józefa Ignacego Kraszewskiego 2,<br>Dni i godziny: niektóre niedziele wg ogłoszeń na FB godz. 15.00<br>www: https://www.facebook.com/FormacjaTradycjiKatolickiej/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Drohiczyńska<br>Data ostatniej zmiany: 02.06.2024]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Drohiczyn</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Józefa Ignacego Kraszewskiego 2,</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niektóre niedziele wg ogłoszeń na FB godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/FormacjaTradycjiKatolickiej/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Drohiczyńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.6593286,52.3968315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Wawrzyńca</name>
+        <description><![CDATA[Miejscowość: Różyny<br>Lokalizacja: Kościelna 8<br>Dni i godziny: Czwartek - godz. 17.30<br>www: http://versusdeum.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Różyny</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościelna 8</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Czwartek - godz. 17.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6658118,54.2018826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Małgorzaty. Sanktuarium Przemienienia Pańskiego.</name>
+        <description><![CDATA[Miejscowość: Nowy Sącz<br>Lokalizacja: plac Kolegiacki 1<br>Dni i godziny: niedziela godz. 15.30. <br>www: https://www.facebook.com/Wierni-Tradycji-%C5%81aci%C5%84skiej-w-Nowym-S%C4%85czu-105320066994692/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Tarnowska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Nowy Sącz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>plac Kolegiacki 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 15.30. </value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Wierni-Tradycji-%C5%81aci%C5%84skiej-w-Nowym-S%C4%85czu-105320066994692/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Tarnowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.6931988,49.6250773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. bł. Edmunda Bojanowskiego i św. Antoniego Padewskiego</name>
+        <description><![CDATA[Miejscowość: Rumia<br>Lokalizacja: ul. Edmunda Bojanowskiego 1,<br>Dni i godziny: poniedziałki i środy godz. 19.30<br>www: http://versusdeum.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-959-0BA9CC</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Rumia</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Edmunda Bojanowskiego 1,</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>poniedziałki i środy godz. 19.30</value>
+          </Data>
+          <Data name="www">
+            <value>http://versusdeum.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.3779478,54.5834595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica Domu Diecezjalnego Tabor</name>
+        <description><![CDATA[Miejscowość: Rzeszów<br>Lokalizacja: Połonińska 25<br>Dni i godziny: w dni robocze wg ogłoszeń, najczęściej godz. 19.30 <br>www: http://tradsi.blogspot.com/ https://www.facebook.com/profile.php?id=100064312644431<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Rzeszowska<br>Data ostatniej zmiany: 03.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Rzeszów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Połonińska 25</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>w dni robocze wg ogłoszeń, najczęściej godz. 19.30 </value>
+          </Data>
+          <Data name="www">
+            <value>http://tradsi.blogspot.com/ https://www.facebook.com/profile.php?id=100064312644431</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Rzeszowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.9732737,50.0086178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Antoniego</name>
+        <description><![CDATA[Miejscowość: Ostrołęka<br>Lokalizacja: ul. Gomulickiego 1A<br>Dni i godziny: niedziela godz. 14.30<br>www: https://www.facebook.com/profile.php?id=61553990771992<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łomżyńska<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Ostrołęka</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Gomulickiego 1A</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 14.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=61553990771992</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łomżyńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.5709325,53.085203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Bożej Częstochowskiej</name>
+        <description><![CDATA[Miejscowość: Starachowice<br>Lokalizacja: Aleja Najświętszej Marii Panny 7<br>Dni i godziny: Niedziela godz. 7.00<br>www: www.tradycjakatolicka.radom.pl<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Radomska<br>Data ostatniej zmiany: 02.05.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Starachowice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Aleja Najświętszej Marii Panny 7</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziela godz. 7.00</value>
+          </Data>
+          <Data name="www">
+            <value>www.tradycjakatolicka.radom.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Radomska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.05.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.102265,51.040366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Marii Magdaleny</name>
+        <description><![CDATA[Miejscowość: Tychy<br>Lokalizacja: s. Konstantego Damrota 62<br>Dni i godziny: druga i czwarta niedziele miesiąca godz. 17.30<br>www: https://pl-pl.facebook.com/Msza-%C5%9Awi%C4%99ta-Trydencka-w-Tychach-i-Katowicach-411154809313664/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Katowicka<br>Data ostatniej zmiany: 27.03.2024]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Tychy</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>s. Konstantego Damrota 62</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga i czwarta niedziele miesiąca godz. 17.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://pl-pl.facebook.com/Msza-%C5%9Awi%C4%99ta-Trydencka-w-Tychach-i-Katowicach-411154809313664/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Katowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>27.03.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.9819237,50.1305109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jana i Pawła Męczenników</name>
+        <description><![CDATA[Miejscowość: Katowice<br>Lokalizacja: Chorzowska 160<br>Dni i godziny: pierwsza i trzecia niedziela miesiąca godz. 17.30<br>www: https://pl-pl.facebook.com/Msza-%C5%9Awi%C4%99ta-Trydencka-w-Tychach-i-Katowicach-411154809313664/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Katowicka<br>Data ostatniej zmiany: 27.03.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Katowice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Chorzowska 160</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza i trzecia niedziela miesiąca godz. 17.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://pl-pl.facebook.com/Msza-%C5%9Awi%C4%99ta-Trydencka-w-Tychach-i-Katowicach-411154809313664/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Katowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>27.03.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.9960775,50.2702992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Rodziny</name>
+        <description><![CDATA[Miejscowość: Tarnów<br>Lokalizacja: Krakowska 41<br>Dni i godziny: niedziela godz. 13.45 ; w tygodniu wg ogłoszeń<br>www: https://www.facebook.com/profile.php?id=61552968748507<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Tarnowska<br>Data ostatniej zmiany: 29.10.2023]]></description>
+        <styleUrl>#icon-959-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Tarnów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Krakowska 41</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 13.45 ; w tygodniu wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=61552968748507</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Tarnowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>29.10.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.976117,50.0090066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jerzego</name>
+        <description><![CDATA[Miejscowość: Słupsk<br>Lokalizacja: pl. bł. Bronisława Kostkowskiego<br>Dni i godziny: II i IV niedziele 13.00<br>pozostałe niedziele, święta i uroczystości wg. ogłoszeń<br><br>www: https://www.facebook.com/tradycjaslupsk<br>htttps://jerzyslupsk.pl<br><br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Koszalińsko-Kołobrzeska<br>Data ostatniej zmiany: 02.06.2024]]></description>
+        <styleUrl>#icon-960-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Słupsk</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. bł. Bronisława Kostkowskiego</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>II i IV niedziele 13.00
+pozostałe niedziele, święta i uroczystości wg. ogłoszeń
+</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/tradycjaslupsk
+htttps://jerzyslupsk.pl
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Koszalińsko-Kołobrzeska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.0333092,54.4630908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Chrystusa Króla</name>
+        <description><![CDATA[Miejscowość: Sadowie<br>Lokalizacja: <br>Dni i godziny: Nieregularnie wg. ogłoszeń<br>W sprawie Mszy trydenckiej prosimy nie dzwonić na numer klasztorny/parafialny, ale kontaktować się bezpośrednio z o. Jakubem:<br>- na adres mailowy: jakubgis@gmail.com<br>- na numer telefonu: 506 586 633<br><br>www: http://krzyz.nazwa.pl/forum/index.php/topic,10145.0.html<br><br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Kaliska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Sadowie</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Nieregularnie wg. ogłoszeń
+W sprawie Mszy trydenckiej prosimy nie dzwonić na numer klasztorny/parafialny, ale kontaktować się bezpośrednio z o. Jakubem:
+- na adres mailowy: jakubgis@gmail.com
+- na numer telefonu: 506 586 633
+</value>
+          </Data>
+          <Data name="www">
+            <value>http://krzyz.nazwa.pl/forum/index.php/topic,10145.0.html
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Kaliska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.9035445,51.6267408,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Niepokalanego Poczęcia NMP</name>
+        <description><![CDATA[Miejscowość: Kraków<br>Lokalizacja: Kopernika 19<br>Dni i godziny: niedziele godz. 8.30, 11.30 oraz 19.00; dni powszednie 6.30 (w adwencie o godz. 6.00) oraz 18.30<br>www: fssp.pl<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Krakowska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-960-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kraków</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kopernika 19</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele godz. 8.30, 11.30 oraz 19.00; dni powszednie 6.30 (w adwencie o godz. 6.00) oraz 18.30</value>
+          </Data>
+          <Data name="www">
+            <value>fssp.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Krakowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.9514833,50.0624703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Bożego Ciała</name>
+        <description><![CDATA[Miejscowość: Łomża<br>Lokalizacja: Przykoszarowa 26<br>Dni i godziny: dni powszednie godz. 8.30, Niedziela godz. 14.00 (od października'22 o 14.00)<br>www: https://www.facebook.com/tradycja.lomza<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łomżyńska<br>Data ostatniej zmiany: 04.06.2024]]></description>
+        <styleUrl>#icon-959-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Łomża</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Przykoszarowa 26</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value><![CDATA[dni powszednie godz. 8.30, Niedziela godz. 14.00 (od października'22 o 14.00)]]></value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/tradycja.lomza</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łomżyńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>04.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.0669931,53.1548271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jana Bosko</name>
+        <description><![CDATA[Miejscowość: Gdańsk <br>Lokalizacja: Orunia, ul. Gościnna 15<br>Dni i godziny: wtorki godz. 19.30<br>www: https://www.facebook.com/versusdeum<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gdańsk </value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Orunia, ul. Gościnna 15</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>wtorki godz. 19.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/versusdeum</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6329101,54.3231329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. św. Stanisława Kostki</name>
+        <description><![CDATA[Miejscowość: Mielec<br>Lokalizacja: ul. Warszawska 1<br>Dni i godziny: druga i czwarta niedziela godz. 15.30<br>www: https://www.facebook.com/profile.php?id=100079478710154<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Tarnowska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Mielec</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Warszawska 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga i czwarta niedziela godz. 15.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=100079478710154</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Tarnowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.4161487,50.2906442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Boskiej Nieustającej Pomocy</name>
+        <description><![CDATA[Miejscowość: Suchań<br>Lokalizacja: Kardynała Augusta Hlonda 12<br>Dni i godziny: Msze Św. prywatne/ciche<br>Celebrans: ks. Mateusz Tschech mateusz.tschech@gmail.com<br>www: https://www.facebook.com/tradycjaszczecin/<br>www.tradycja-szczecin.pl<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Szczecińsko - Kamieńska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Suchań</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kardynała Augusta Hlonda 12</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Msze Św. prywatne/ciche
+Celebrans: ks. Mateusz Tschech mateusz.tschech@gmail.com</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/tradycjaszczecin/
+www.tradycja-szczecin.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko - Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.3166783,53.2799259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Serca Pana Jezusa</name>
+        <description><![CDATA[Miejscowość: Turek<br>Lokalizacja: plac Sienkiewicza 4<br>Dni i godziny: druga niedziela miesiąca godz. 15.00 ; po Mszy św. niedzielnej spotkanie formacyjne; wyjątki i zmiany w wakacje wg ogłoszeń na FB<br>www: https://www.facebook.com/Msza-Wszechczasow-w-Turku-439821529396532<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Włocławska<br>Data ostatniej zmiany: 4.5.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Turek</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>plac Sienkiewicza 4</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga niedziela miesiąca godz. 15.00 ; po Mszy św. niedzielnej spotkanie formacyjne; wyjątki i zmiany w wakacje wg ogłoszeń na FB</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Msza-Wszechczasow-w-Turku-439821529396532</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Włocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>4.5.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.502792,52.0151374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Przemienienia Pańskiego w Garwolinie</name>
+        <description><![CDATA[Miejscowość: Garwolin<br>Lokalizacja: Staszica 11<br>Dni i godziny: zazwyczaj dwie niedziele w miesiącu wg ogłoszeń godz. 14.30 <br>www: https://www.facebook.com/Msza-Swieta-Trydencka-w-Garwolinie-108100107784898<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Siedlecka<br>Data ostatniej zmiany: 03.06.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Garwolin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Staszica 11</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>zazwyczaj dwie niedziele w miesiącu wg ogłoszeń godz. 14.30 </value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Msza-Swieta-Trydencka-w-Garwolinie-108100107784898</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Siedlecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.6169757,51.8974744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół Rzymskokatolicki pw. Wniebowzięcia NMP</name>
+        <description><![CDATA[Miejscowość: Brańszczyk<br>Lokalizacja: Jana Pawła II 28<br>Dni i godziny: Niedziela godz. 18.00<br>www: https://tridentina-wyszkow.blogspot.com/p/terminy-mszy-swietej.html<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łomżyńska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Brańszczyk</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Jana Pawła II 28</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziela godz. 18.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://tridentina-wyszkow.blogspot.com/p/terminy-mszy-swietej.html</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łomżyńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.5854941,52.6268089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszej Krwi Pana Jezusa</name>
+        <description><![CDATA[Miejscowość: Poznań<br>Lokalizacja: Żydowska 34<br>Dni i godziny: niedziela godz. 8.00. 10.30; <br>wtorek, piątek godz. 18.00 lub wg ogłoszeń na stronie www<br>www: http://www.tradycjapoznan.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Poznańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Poznań</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Żydowska 34</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 8.00. 10.30; 
+wtorek, piątek godz. 18.00 lub wg ogłoszeń na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.tradycjapoznan.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Poznańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.935171,52.409108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół rektoralny pw. św. Józefa</name>
+        <description><![CDATA[Miejscowość: Szczecin<br>Lokalizacja: Doktora Judyma 4<br>Dni i godziny: od poniedziałku do soboty godz. 18:00<br>w niedziele i święta godz.8.00 (cicha), godz. 10.30 (suma z aspersją)<br>www: http://www.tradycja-szczecin.pl FB: www.facebook.com/tradycjaszczecin<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Szczecińsko-kamieńska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-960-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Szczecin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Doktora Judyma 4</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>od poniedziałku do soboty godz. 18:00
+w niedziele i święta godz.8.00 (cicha), godz. 10.30 (suma z aspersją)</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.tradycja-szczecin.pl FB: www.facebook.com/tradycjaszczecin</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko-kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.5319042,53.4545643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Serca Jezusa i św. Floriana</name>
+        <description><![CDATA[Miejscowość: Poznań<br>Lokalizacja: Kościelna 3<br>Dni i godziny: niedziela godz. 14.15 lub wg ogłoszeń na stronie www<br>www: http://www.tradycjapoznan.pl/	<br>https://pl-pl.facebook.com/poznanskieniesrodowiskotradycjikatolickiej <br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Poznańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Poznań</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościelna 3</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 14.15 lub wg ogłoszeń na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.tradycjapoznan.pl/	
+https://pl-pl.facebook.com/poznanskieniesrodowiskotradycjikatolickiej </value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Poznańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.903183,52.4134903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Niepokalanego Poczęcia NMP</name>
+        <description><![CDATA[Miejscowość: Pruszków<br>Lokalizacja: Żbików, ul. 3 Maja 124<br>Dni i godziny: niedziela 19.30 lub 15.00 (wg ogłoszeń) , pierwszy piątek miesiące godz. 20.00, pozostałe dni wg ogłoszeń na FB<br>www: https://www.facebook.com/MszaTrydenckaPruszkow<br><br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Warszawska<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Pruszków</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Żbików, ul. 3 Maja 124</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela 19.30 lub 15.00 (wg ogłoszeń) , pierwszy piątek miesiące godz. 20.00, pozostałe dni wg ogłoszeń na FB</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/MszaTrydenckaPruszkow
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.7859286,52.1806996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Wniebowziecia NMP</name>
+        <description><![CDATA[Miejscowość: Cieszyn<br>Lokalizacja: Plac ks. Józefa Londzina; <br>Dni i godziny: trzecia niedziela godz. 15.00<br>www: https://swjerzycieszyn.ox.pl/strona/msza-sw-trydencka https://tridentina-bielsko.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Bielsko-Żywiecka<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Cieszyn</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Plac ks. Józefa Londzina; </value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://swjerzycieszyn.ox.pl/strona/msza-sw-trydencka https://tridentina-bielsko.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bielsko-Żywiecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.634615,49.7506097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszego Seca Pana Jezusa</name>
+        <description><![CDATA[Miejscowość: Kąty Opolskie<br>Lokalizacja: Kościelna 25<br>Dni i godziny: Niedziela i święta nakazane godz. 12.00 ; w tygodniu według ogłoszeń, zwykle o godz. 18.00 w okresie zimowym i 19.00 w letnim.<br>www: http://tradycja.opole.pl/  ; FB: https://www.facebook.com/tridentina.opole/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Opolska<br>Data ostatniej zmiany: 02.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kąty Opolskie</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościelna 25</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziela i święta nakazane godz. 12.00 ; w tygodniu według ogłoszeń, zwykle o godz. 18.00 w okresie zimowym i 19.00 w letnim.</value>
+          </Data>
+          <Data name="www">
+            <value>http://tradycja.opole.pl/  ; FB: https://www.facebook.com/tridentina.opole/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Opolska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.9770388,50.5591023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Podwyższenia Krzyża Św.</name>
+        <description><![CDATA[Miejscowość: Pierwoszyno <br>Lokalizacja: <br>Dni i godziny: niedziele - godz. 13.00<br>pierwsze soboty miesiąca - godz. 00.00 (północ z piątku na sobotę)<br>www: https://www.facebook.com/versusdeum<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: 29 sty 2023]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Pierwoszyno </value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele - godz. 13.00
+pierwsze soboty miesiąca - godz. 00.00 (północ z piątku na sobotę)</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/versusdeum</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>29 sty 2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.4993798,54.5977569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica św. Marii Magdaleny</name>
+        <description><![CDATA[Miejscowość: Kłodzko<br>Lokalizacja: Łukasińskiego 32<br>Dni i godziny: pierwsza niedziela miesiąca, godz. 16.00: Msza św. śpiewana okazjonalnie wg bieżących ogłoszeń<br>www: https://tradycja-swidnica.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Świdnicka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kłodzko</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Łukasińskiego 32</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza niedziela miesiąca, godz. 16.00: Msza św. śpiewana okazjonalnie wg bieżących ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://tradycja-swidnica.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Świdnicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.6567979,50.4425966,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica szkolna oo. jezuitów</name>
+        <description><![CDATA[Miejscowość: Gdynia<br>Lokalizacja: ul. Tatrzańska 35<br>Dni i godziny: niedziela, godz. 10.00<br>www: versusdeum.pl<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gdańska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gdynia</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Tatrzańska 35</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela, godz. 10.00</value>
+          </Data>
+          <Data name="www">
+            <value>versusdeum.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gdańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.5257494,54.515871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica parafii ks. Jerzego Popiełuszki</name>
+        <description><![CDATA[Miejscowość: Szczecin<br>Lokalizacja: Róg Nastrojowej i Gwarnej<br>Dni i godziny: niedziele zwykle 8.00, informacja o Mszy św. niedzielnej i Mszach w tygodniu wg rozpiski na www lub FB<br>www: www.popieluszko.szczecin.pl  www.facebook.com/tradycjaszczecin<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Szczecińsko-Kamieńska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Szczecin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Róg Nastrojowej i Gwarnej</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele zwykle 8.00, informacja o Mszy św. niedzielnej i Mszach w tygodniu wg rozpiski na www lub FB</value>
+          </Data>
+          <Data name="www">
+            <value>www.popieluszko.szczecin.pl  www.facebook.com/tradycjaszczecin</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko-Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.6675364,53.3693621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica Sióstr Benedyktynek Misjonarek</name>
+        <description><![CDATA[Miejscowość: Kwidzyn<br>Lokalizacja: ul. Piatowska<br>Dni i godziny: co druga niedziela, wg. ogłoszeń na FB<br>www: https://www.facebook.com/trydentkwidzyn<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Elbląska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kwidzyn</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Piatowska</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>co druga niedziela, wg. ogłoszeń na FB</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/trydentkwidzyn</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Elbląska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.9404699,53.7383597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Podwyższenia Krzyża Świętego</name>
+        <description><![CDATA[Miejscowość: Wojcieszyce<br>Lokalizacja: <br>Dni i godziny: niedziela godz. 15.00 ; inne dni wg ogłoszeń<br>www: https://mszatrydencka-lubuskie.pl/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Zielonogórsko-Gorzowska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wojcieszyce</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 15.00 ; inne dni wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://mszatrydencka-lubuskie.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Zielonogórsko-Gorzowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.270727,52.7935684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Najświętszej Maryi Panny i św. Jacka</name>
+        <description><![CDATA[Miejscowość: Klimontów<br>Lokalizacja: Zysmana 8, Klimontów<br>Dni i godziny: wg ogłoszeń na stronie www, na zmianę z Mszami w Tarnobrzegu, w okresie letnim  19.03-5.11 : niedziela godz. 12:30<br>www: https://www.facebook.com/%C5%9Arodowisko-Tradycyjnej-Liturgii-%C5%81aci%C5%84skiej-Diecezji-Sandomierskiej-430078710469000/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Sandomierska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Klimontów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Zysmana 8, Klimontów</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>wg ogłoszeń na stronie www, na zmianę z Mszami w Tarnobrzegu, w okresie letnim  19.03-5.11 : niedziela godz. 12:30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/%C5%9Arodowisko-Tradycyjnej-Liturgii-%C5%81aci%C5%84skiej-Diecezji-Sandomierskiej-430078710469000/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Sandomierska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.447362,50.6600174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. św. Jacka</name>
+        <description><![CDATA[Miejscowość: Tarnobrzeg<br>Lokalizacja: Sielecka 28<br>Dni i godziny: niedziela godz. 11.00 (13 listopada - 12 marca) wg ogłoszeń na stronie FB - na zmianę z Mszami w Klimontowie<br>www: https://www.facebook.com/%C5%9Arodowisko-Tradycyjnej-Liturgii-%C5%81aci%C5%84skiej-Diecezji-Sandomierskiej-430078710469000/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Sandomierska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Tarnobrzeg</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Sielecka 28</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 11.00 (13 listopada - 12 marca) wg ogłoszeń na stronie FB - na zmianę z Mszami w Klimontowie</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/%C5%9Arodowisko-Tradycyjnej-Liturgii-%C5%81aci%C5%84skiej-Diecezji-Sandomierskiej-430078710469000/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Sandomierska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.7225033,50.624936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica przy parafii Matki Bożej Królowej Polski</name>
+        <description><![CDATA[Miejscowość: Wołomin<br>Lokalizacja: Kurkowa 35<br>Dni i godziny: niedziela i święta godz. 10.30 ; pon, środ – 17.00; Wt – 19.00; czw, pt – 6.00; sob – 7.00;<br>www: <br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: warszawsko-Praska<br>Data ostatniej zmiany: 05.11.2023]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wołomin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kurkowa 35</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela i święta godz. 10.30 ; pon, środ – 17.00; Wt – 19.00; czw, pt – 6.00; sob – 7.00;</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>warszawsko-Praska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.2402017,52.3383282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica przy Sanktuarium Matki Bożej Łaskawej</name>
+        <description><![CDATA[Miejscowość: Wielgolas<br>Lokalizacja: Wielgolas 1, Latowicz,<br>Dni i godziny: niedziela, zazwyczaj godz.15.30 - zmiany w ogłoszeniach na www<br>www: http://sanctamissawielgolas.blogspot.com<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Warszawsko-Praska<br>Data ostatniej zmiany: 03.06.2023]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wielgolas</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Wielgolas 1, Latowicz,</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela, zazwyczaj godz.15.30 - zmiany w ogłoszeniach na www</value>
+          </Data>
+          <Data name="www">
+            <value>http://sanctamissawielgolas.blogspot.com</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawsko-Praska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.7092027,52.0396396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościoł św. Bartłomieja</name>
+        <description><![CDATA[Miejscowość: Konin<br>Lokalizacja: Kościelna 1<br>Dni i godziny: trzecia niedziela miesiąca i święta godz. 16.00<br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Włocławska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Konin</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościelna 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca i święta godz. 16.00</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Włocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.2547537,52.2090931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica Zakładu Opiekuńczo - Leczniczego</name>
+        <description><![CDATA[Miejscowość: Przemyśl<br>Lokalizacja: Jasińskiego 15<br>Dni i godziny: niedziele godz.11.00 - oprócz drugiej niedzieli miesiąca<br>www: https://www.facebook.com/Duszpasterstwo-%C5%9Arodowisk-Tradycyjnych-w-Archidiecezji-Przemyskiej-335664983262135/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Przemyska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Przemyśl</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Jasińskiego 15</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele godz.11.00 - oprócz drugiej niedzieli miesiąca</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Duszpasterstwo-%C5%9Arodowisk-Tradycyjnych-w-Archidiecezji-Przemyskiej-335664983262135/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Przemyska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.7999351,49.7770234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół św. Wojciecha</name>
+        <description><![CDATA[Miejscowość: Krosno<br>Lokalizacja: Korczyńska 18a<br>Dni i godziny: druga i ostatnia niedziela miesiąca godz. 13.00<br>www: http://krosnotradycjakatolicka.pl/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Przemyska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Krosno</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Korczyńska 18a</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga i ostatnia niedziela miesiąca godz. 13.00</value>
+          </Data>
+          <Data name="www">
+            <value>http://krosnotradycjakatolicka.pl/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Przemyska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.7785863,49.696063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Bartłomieja (Stary)</name>
+        <description><![CDATA[Miejscowość: Gliwice<br>Lokalizacja: Toszecka 38<br>Dni i godziny: niedziela godz. 11.00 lub wg ogłoszeń<br>www: Tradycja.org<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gliwicka<br>Data ostatniej zmiany: 02.06.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gliwice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Toszecka 38</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 11.00 lub wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>Tradycja.org</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gliwicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6696168,50.31105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół Ormiańskokatolicki pw. Trójcy Świętej w Gliwicach</name>
+        <description><![CDATA[Miejscowość: Gliwice<br>Lokalizacja: Mikołowska 8<br>Dni i godziny: poniedziałek - piątek: godz. 6,15,  sobota godz. 7.00; pierwsza sobota miesiąca  godz. 7:30 ; niedziele godz. 7.00 <br>www: www.tradycja.org<br>Coniedzielna: true<br>(prawie) Codzienna: true<br>Diecezja: Gliwicka<br>Data ostatniej zmiany: 3.06.2024]]></description>
+        <styleUrl>#icon-961-62AF44</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gliwice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Mikołowska 8</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>poniedziałek - piątek: godz. 6,15,  sobota godz. 7.00; pierwsza sobota miesiąca  godz. 7:30 ; niedziele godz. 7.00 </value>
+          </Data>
+          <Data name="www">
+            <value>www.tradycja.org</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>1</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gliwicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>3.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.6677974,50.291558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jana Pawła II</name>
+        <description><![CDATA[Miejscowość: Dyrdy<br>Lokalizacja: ul. ks. Antosza<br>Dni i godziny: niedziela godz.13.15 ; czwartek o:<br>- 18.15 (17.45 Różaniec) – czas zimowy<br>- 19.15 (18.45 Różaniec) – czas letni<br>www: https://www.dyrdytrydencka.pl/ https://www.facebook.com/profile.php?id=100095157975255 <br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gliwicka<br>Data ostatniej zmiany: 05.11.2023]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Dyrdy</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. ks. Antosza</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz.13.15 ; czwartek o:
+- 18.15 (17.45 Różaniec) – czas zimowy
+- 19.15 (18.45 Różaniec) – czas letni</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.dyrdytrydencka.pl/ https://www.facebook.com/profile.php?id=100095157975255 </value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gliwicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.9860931,50.5749167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica domu parafialnego parafii pw. św. Anny</name>
+        <description><![CDATA[Miejscowość: Zabrze<br>Lokalizacja: 3 Maja 18 (kaplica na pierwszym piętrze bez windy)<br>Dni i godziny: niedziela godz. 18.30 lub wg ogłoszeń, Środa 19.00<br>www: www.tradycja.org  https://www.facebook.com/TradycjaLacinskaZabrze<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gliwicka<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Zabrze</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>3 Maja 18 (kaplica na pierwszym piętrze bez windy)</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 18.30 lub wg ogłoszeń, Środa 19.00</value>
+          </Data>
+          <Data name="www">
+            <value>www.tradycja.org  https://www.facebook.com/TradycjaLacinskaZabrze</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gliwicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.7891746,50.3000221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanktuarium św Rocha Sadykierz</name>
+        <description><![CDATA[Miejscowość: Sadykierz<br>Lokalizacja: Sadykierz 57<br>Dni i godziny: pierwsza niedziela godz. 15.00<br>www: https://www.facebook.com/Tradycja-Katolicka-Pu%C5%82tusk-100722978061963/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Płocka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Sadykierz</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Sadykierz 57</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza niedziela godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Tradycja-Katolicka-Pu%C5%82tusk-100722978061963/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Płocka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.2799029,52.702109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Bożego Ciała</name>
+        <description><![CDATA[Miejscowość: Suwałki<br>Lokalizacja: 11 listopada 6<br>Dni i godziny: pierwsza i trzecia niedziela miesiąca godz. 13.30<br>www: https://www.facebook.com/trydent.suwalki/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Ełcka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Suwałki</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>11 listopada 6</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza i trzecia niedziela miesiąca godz. 13.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/trydent.suwalki/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Ełcka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.9267132,54.1269093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>kaplica parafii św. Kazimierza Królewicza</name>
+        <description><![CDATA[Miejscowość: Giżycko<br>Lokalizacja: Kościuszki 12<br>Dni i godziny: ostatnia niedziela miesiąca godz. 16.00<br>www: https://www.facebook.com/gizyckieniesrodowiskotradycjikatolickiej/     <br>https://www.facebook.com/pages/category/Religious-Organization/Parafia-Rzymskokatolicka-%C5%9Aw-Brunona-w-Gi%C5%BCycku-627282884586781/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Ełcka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Giżycko</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościuszki 12</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>ostatnia niedziela miesiąca godz. 16.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/gizyckieniesrodowiskotradycjikatolickiej/     
+https://www.facebook.com/pages/category/Religious-Organization/Parafia-Rzymskokatolicka-%C5%9Aw-Brunona-w-Gi%C5%BCycku-627282884586781/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Ełcka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.7749426,54.0402295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Bożej Różańcowej</name>
+        <description><![CDATA[Miejscowość: Olsztyn<br>Lokalizacja: ul. Żniwna 7<br>Dni i godziny: niedziela godz. 11.00; dni powszednie godz. 7.00<br>www: https://www.facebook.com/tradycjawarmia<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Warmińska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-960-62AF44</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Olsztyn</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Żniwna 7</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 11.00; dni powszednie godz. 7.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/tradycjawarmia</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warmińska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.4229602,53.7664182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Panny Maryi</name>
+        <description><![CDATA[Miejscowość: Piotrków Trybunalski<br>Lokalizacja: Krakowskie Przedmieście 29<br>Dni i godziny: niedziela godz. 15.00 (lub wg ogłoszeń na FB)<br>www: https://www.facebook.com/Msza-Trydencka-w-Piotrkowie-Trybunalskim-678342472295833/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Łódzka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Piotrków Trybunalski</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Krakowskie Przedmieście 29</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 15.00 (lub wg ogłoszeń na FB)</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/Msza-Trydencka-w-Piotrkowie-Trybunalskim-678342472295833/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łódzka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.6972349,51.4020927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Świętej Trójcy</name>
+        <description><![CDATA[Miejscowość: Radom<br>Lokalizacja: pl. Kazimierza Wielkiego<br>Dni i godziny: niedziele godz. 15.00 (wg ogłoszeń na stronie www)<br>www: www.tradycjakatolicka.radom.pl<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Radomska<br>Data ostatniej zmiany: 02.05.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Radom</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. Kazimierza Wielkiego</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele godz. 15.00 (wg ogłoszeń na stronie www)</value>
+          </Data>
+          <Data name="www">
+            <value>www.tradycjakatolicka.radom.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Radomska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.05.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.147347,51.4028903,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dolna kaplica kościoła pw. Zesłania Ducha Świętego</name>
+        <description><![CDATA[Miejscowość: Otwock<br>Lokalizacja: Stefana Żeromskiego 6<br>Dni i godziny: niedziela, godz. 8.30<br>www: https://www.facebook.com/MszaTrydenckaOtwock/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Warszawsko-Praska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Otwock</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Stefana Żeromskiego 6</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela, godz. 8.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/MszaTrydenckaOtwock/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawsko-Praska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.2757664,52.1045717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica klasztoru ss. karmelitanek w Kaliszu</name>
+        <description><![CDATA[Miejscowość: NIedźwiady k. Kalisza 40<br>Lokalizacja: <br>Dni i godziny: 1 sobota i 1 piątek m-ca 18.30<br>www: www.facebook.com/mszatrydenckakalisz<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Kaliska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>NIedźwiady k. Kalisza 40</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>1 sobota i 1 piątek m-ca 18.30</value>
+          </Data>
+          <Data name="www">
+            <value>www.facebook.com/mszatrydenckakalisz</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Kaliska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.0912612,51.7931127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica Adoracji pw. Najświętszego Serca Pana Jezusa</name>
+        <description><![CDATA[Miejscowość: Kostrzyn nad Odrą<br>Lokalizacja: Wyszyńskiego 2<br>Dni i godziny: niedziele wg ogłoszeń<br>www: https://www.facebook.com/O%C5%9Brodek-nadzwyczajnej-formy-rytu-rzymskiego-w-Kostrzynie-nad-Odr%C4%85-102744592243833<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Zielonogórsko-Gorzowska<br>Data ostatniej zmiany: 04.06.2024]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kostrzyn nad Odrą</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Wyszyńskiego 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/O%C5%9Brodek-nadzwyczajnej-formy-rytu-rzymskiego-w-Kostrzynie-nad-Odr%C4%85-102744592243833</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Zielonogórsko-Gorzowska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>04.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.6611563,52.5879729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. Matki Bożej Częstochowskiej (w kościele św. Józefa)</name>
+        <description><![CDATA[Miejscowość: BIelsko Biała<br>Lokalizacja: Tuwima 62<br>Dni i godziny: w każdą niedzielę o godz. 15:15 oraz w inne dni podane na stronie www<br>www: https://tridentina-bielsko.blogspot.com/<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Bielsko-Żywiecka<br>Data ostatniej zmiany: 06.11.2023]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>BIelsko Biała</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Tuwima 62</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>w każdą niedzielę o godz. 15:15 oraz w inne dni podane na stronie www</value>
+          </Data>
+          <Data name="www">
+            <value>https://tridentina-bielsko.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bielsko-Żywiecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>06.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.0668672,49.8105663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Marka</name>
+        <description><![CDATA[Miejscowość: Żywiec<br>Lokalizacja: Henryka Sienkiewicza 87<br>Dni i godziny: w ostatnią niedzielę miesiąca godz. 11.30<br>www: https://tridentina-bielsko.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Bielsko-Żywiecka<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Żywiec</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Henryka Sienkiewicza 87</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>w ostatnią niedzielę miesiąca godz. 11.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://tridentina-bielsko.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bielsko-Żywiecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.202717,49.6962215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica pw. św. Jacka</name>
+        <description><![CDATA[Miejscowość: Oświęcim<br>Lokalizacja: Jagiełły 10<br>Dni i godziny: druga niedziela miesiąca godz. 13.15<br>www: https://tradycjaoswiecim.wordpress.com/ https://www.facebook.com/tradycyjny.ryt.rzymski.oswiecim https://tridentina-bielsko.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Bielsko-Żywiecka<br>Data ostatniej zmiany: 06.11.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Oświęcim</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Jagiełły 10</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga niedziela miesiąca godz. 13.15</value>
+          </Data>
+          <Data name="www">
+            <value>https://tradycjaoswiecim.wordpress.com/ https://www.facebook.com/tradycyjny.ryt.rzymski.oswiecim https://tridentina-bielsko.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Bielsko-Żywiecka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>06.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            19.220297,50.0370673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Matki Bożej Częstochowskiej </name>
+        <description><![CDATA[Miejscowość: Józefów<br>Lokalizacja: ul. Piotra Skargi 24, dolny kościół<br>Dni i godziny: Msza w niedziele i święta (w dni wolne od pracy) o godz. 15.00 , w dni powszednie wg ogłoszeń<br><br>www: https://www.facebook.com/mszawjozefowie <br><br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Warszawsko-Praska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Józefów</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Piotra Skargi 24, dolny kościół</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Msza w niedziele i święta (w dni wolne od pracy) o godz. 15.00 , w dni powszednie wg ogłoszeń
+</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/mszawjozefowie 
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawsko-Praska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.226788,52.13844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół Rzymskokatolicki pw. św. Jerzego</name>
+        <description><![CDATA[Miejscowość: Gniezno<br>Lokalizacja: Kolegiaty 3<br>Dni i godziny: pierwsza niedziela miesiąca godz. 15.30<br>www: https://www.facebook.com/MszaTrydenckaGniezno<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Gnieźnieńska<br>Data ostatniej zmiany: 24.03.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Gniezno</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kolegiaty 3</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>pierwsza niedziela miesiąca godz. 15.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/MszaTrydenckaGniezno</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gnieźnieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>24.03.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            17.5930972,52.5373812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Maksymiliana</name>
+        <description><![CDATA[Miejscowość: Głodowo<br>Lokalizacja: <br>Dni i godziny: drugi i czwarty poniedziałek miesiąca<br>www: https://www.facebook.com/pg/Tradycyjna-Msza-%C5%9Awi%C4%99ta-w-Skarszewach-362084027857796/posts/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Pelplińska<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Głodowo</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>drugi i czwarty poniedziałek miesiąca</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/pg/Tradycyjna-Msza-%C5%9Awi%C4%99ta-w-Skarszewach-362084027857796/posts/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Pelplińska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.315452,54.0721723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica Zakonu Karmelitanek</name>
+        <description><![CDATA[Miejscowość: Wityny<br>Lokalizacja: Wityny 21<br>Dni i godziny: Druga i czwarta niedziela miesiąca godz. 15.00<br>www: https://www.facebook.com/trydent.elk<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Ełcka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-0BA9CC</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wityny</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Wityny 21</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Druga i czwarta niedziela miesiąca godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/trydent.elk</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Ełcka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            22.3418695,53.8506739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanktuarium Matki Bożej Bolesnej w Wałbrzychu</name>
+        <description><![CDATA[Miejscowość: Wałbrzych<br>Lokalizacja: pl. Kościelny<br>Dni i godziny: trzecia niedziela miesiąca, godz. 16.00: Msza św. śpiewana<br>www: www.tradycja-swidnica.org.pl<br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: Świdnicka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Wałbrzych</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. Kościelny</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca, godz. 16.00: Msza św. śpiewana</value>
+          </Data>
+          <Data name="www">
+            <value>www.tradycja-swidnica.org.pl</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Świdnicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.2806942,50.7656156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jakuba Apostoła</name>
+        <description><![CDATA[Miejscowość: Skierniewice<br>Lokalizacja: Senatorska 11/13<br>Dni i godziny: druga niedziela miesiąca o godz. 15.00<br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: Łowicka<br>Data ostatniej zmiany: 04.06.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Skierniewice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Senatorska 11/13</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga niedziela miesiąca o godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>04.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.1407749,51.957857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Michała Archanioła (dolny kościół)</name>
+        <description><![CDATA[Miejscowość: Poznań<br>Lokalizacja: ul. Stolarska 7<br>Dni i godziny: druga sobota miesiąca godz. 11.00 <br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: Poznańska<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Poznań</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Stolarska 7</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>druga sobota miesiąca godz. 11.00 </value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Poznańska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.9017249,52.4046522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Ignacego</name>
+        <description><![CDATA[Miejscowość: Młyniec Drugi<br>Lokalizacja: <br>Dni i godziny: wg ogłoszeń;<br>www: https://www.facebook.com/%C5%9Arodowisko-Tradycji-%C5%81aci%C5%84skiej-w-Toruniu-105126185284812 ; https://tridentinatorun.blogspot.com/<br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: Włocławska<br>Data ostatniej zmiany: 08.06.2023]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Młyniec Drugi</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value/>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>wg ogłoszeń;</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/%C5%9Arodowisko-Tradycji-%C5%81aci%C5%84skiej-w-Toruniu-105126185284812 ; https://tridentinatorun.blogspot.com/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Włocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>08.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.8139722,53.0661876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Franciszka z Asyżu</name>
+        <description><![CDATA[Miejscowość: Jerzmanki k. Zgorzelca<br>Lokalizacja: Jerzmanki 42<br>Dni i godziny: ostatnia niedziela miesiąca 11.30<br>www: https://www.facebook.com/groups/616796042324766<br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: legnicka<br>Data ostatniej zmiany: ]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Jerzmanki k. Zgorzelca</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Jerzmanki 42</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>ostatnia niedziela miesiąca 11.30</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/groups/616796042324766</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>legnicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value/>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.0616094,51.1366164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Opatrzności Bożej w Inowrocławiu</name>
+        <description><![CDATA[Miejscowość: Inowrocław<br>Lokalizacja: Poznańska 332,<br>Dni i godziny: trzecia niedziela miesiąca godz. 14.00<br>www: https://www.facebook.com/mszatrydenckaino<br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: gnieźnieńska<br>Data ostatniej zmiany: 07.11.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Inowrocław</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Poznańska 332,</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca godz. 14.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/mszatrydenckaino</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>gnieźnieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>07.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.2544475,52.7550992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bazylika Wniebowzięcia N. M. P.</name>
+        <description><![CDATA[Miejscowość: Zduńska Wola<br>Lokalizacja: Kościelna 15<br>Dni i godziny: niedziela godz. 14.00, dodatkowe celebracje wg ogłoszeń<br>www: https://www.facebook.com/profile.php?id=100089078560078<br><br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Włocławska<br>Data ostatniej zmiany: 5.11.2023]]></description>
+        <styleUrl>#icon-959-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Zduńska Wola</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Kościelna 15</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela godz. 14.00, dodatkowe celebracje wg ogłoszeń</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=100089078560078
+</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Włocławska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>5.11.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.9331181,51.5995794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Świętego Ducha</name>
+        <description><![CDATA[Miejscowość: Bytom<br>Lokalizacja: Krakowska 30<br>Dni i godziny: niedziela i święta nakazane godz. 10.00, msze w tygodniu wg ogłoszeń, zazwyczaj wtorek, czwartek i piątek godz. 19.00, sobota godz. 8.00<br>www: www.vetusordo.pl <br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Gliwicka<br>Data ostatniej zmiany: 03.06.2024]]></description>
+        <styleUrl>#icon-961-009D57</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Bytom</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Krakowska 30</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziela i święta nakazane godz. 10.00, msze w tygodniu wg ogłoszeń, zazwyczaj wtorek, czwartek i piątek godz. 19.00, sobota godz. 8.00</value>
+          </Data>
+          <Data name="www">
+            <value>www.vetusordo.pl </value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Gliwicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            18.927925,50.3462233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Antoniego z Padwy</name>
+        <description><![CDATA[Miejscowość: Świete <br>Lokalizacja: Święte 34<br>Dni i godziny: Niedziela godz. 15.00 ; Poniedziałek godz. 18.00<br>Wtorek godz. 8.00 W święta przypadające w tygodniu wg. ogłoszeń na Facebooku<br><br>www: https://www.facebook.com/profile.php?id=61556071012020 www.facebook.com/tradycjaszczecin<br>Coniedzielna: true<br>(prawie) Codzienna: false<br>Diecezja: Szczecińsko Kamieńska<br>Data ostatniej zmiany: 07.06.2024]]></description>
+        <styleUrl>#icon-960-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Świete </value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Święte 34</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Niedziela godz. 15.00 ; Poniedziałek godz. 18.00
+Wtorek godz. 8.00 W święta przypadające w tygodniu wg. ogłoszeń na Facebooku
+</value>
+          </Data>
+          <Data name="www">
+            <value>https://www.facebook.com/profile.php?id=61556071012020 www.facebook.com/tradycjaszczecin</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>07.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.0882936,53.3185387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica na plebanii Parafii Narodzenia NMP w Choszcznie</name>
+        <description><![CDATA[Miejscowość: Choszczno<br>Lokalizacja: Rynek 1<br>Dni i godziny: Msze Św. prywatne/ciche Celebrans: ks. Adam Pałys, tel. 512 100 267<br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: <br>Diecezja: Szczecińsko-Kamieńska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Choszczno</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Rynek 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Msze Św. prywatne/ciche Celebrans: ks. Adam Pałys, tel. 512 100 267</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko-Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.4193153,53.1681695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kaplica bł. Bronisławy</name>
+        <description><![CDATA[Miejscowość: Legnica<br>Lokalizacja: ul. Nadbrzeżna 3 (na terenie parafii obok kościoła p.w. św. Jacka)<br>Dni i godziny: w każdą niedzielę nieparzystą (I, III, V) o godzinie 9:15<br>W niedzielę parzystą (II i IV) o godzinie 19:oo<br>www: <br>Coniedzielna: true<br>(prawie) Codzienna: <br>Diecezja: Legnicka<br>Data ostatniej zmiany: 02.05.2024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Legnica</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Nadbrzeżna 3 (na terenie parafii obok kościoła p.w. św. Jacka)</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>w każdą niedzielę nieparzystą (I, III, V) o godzinie 9:15
+W niedzielę parzystą (II i IV) o godzinie 19:oo</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Legnicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>02.05.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.1737399,51.2102292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. Niepokalanego Poczęcia N.M.P.</name>
+        <description><![CDATA[Miejscowość: Kołobrzeg<br>Lokalizacja: Katedralna 35<br>Dni i godziny: niedziele godz. 15.00<br>www: https://dke.kolobrzeg.pl/ogloszenia-duszpasterskie/<br>Coniedzielna: true<br>(prawie) Codzienna: <br>Diecezja: Koszalińsko-Kołobrzeska<br>Data ostatniej zmiany: 16.05.1024]]></description>
+        <styleUrl>#icon-961-F4EB37</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Kołobrzeg</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Katedralna 35</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>niedziele godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value>https://dke.kolobrzeg.pl/ogloszenia-duszpasterskie/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>1</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Koszalińsko-Kołobrzeska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>16.05.1024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.5729078,54.1750743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Jana Bosko</name>
+        <description><![CDATA[Miejscowość: Piła<br>Lokalizacja: Libelta 3<br>Dni i godziny: raz w miesiącu godz. 15.00<br>terminy w ogłoszeniach na stronie parafii:<br>www: http://www.milosierdzie.pila.pl/index.php/informacja/ogloszenia-parafialne<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Koszalińsko-Kołobrzeska<br>Data ostatniej zmiany: 15.05.2024]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Piła</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Libelta 3</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>raz w miesiącu godz. 15.00
+terminy w ogłoszeniach na stronie parafii:</value>
+          </Data>
+          <Data name="www">
+            <value>http://www.milosierdzie.pila.pl/index.php/informacja/ogloszenia-parafialne</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Koszalińsko-Kołobrzeska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>15.05.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            16.7421234,53.1365891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół Sióstr Wizytek</name>
+        <description><![CDATA[Miejscowość: Warszawa<br>Lokalizacja: Krakowskie Przedmieście 34<br>Dni i godziny: wg ogłoszeń, zazwyczaj święta I klasy<br>www: http://warszawa.instytutdobregopasterza.pl/<br>lub na FB: https://www.facebook.com/Msza-%C5%9Awi%C4%99ta-trydencka-w-ko%C5%9Bciele-%C5%9Brodowisk-tw%C3%B3rczych-192624664665148<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Warszawska<br>Data ostatniej zmiany: 03.05.2024]]></description>
+        <styleUrl>#icon-961-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Warszawa</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Krakowskie Przedmieście 34</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>wg ogłoszeń, zazwyczaj święta I klasy</value>
+          </Data>
+          <Data name="www">
+            <value>http://warszawa.instytutdobregopasterza.pl/
+lub na FB: https://www.facebook.com/Msza-%C5%9Awi%C4%99ta-trydencka-w-ko%C5%9Bciele-%C5%9Brodowisk-tw%C3%B3rczych-192624664665148</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Warszawska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>03.05.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            21.0171039,52.2410978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Józefa</name>
+        <description><![CDATA[Miejscowość: Skierniewice<br>Lokalizacja: Domarasiewicza<br>Dni i godziny: trzecia niedziela miesiąca godz. 15.00<br>www: <br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Łowicka<br>Data ostatniej zmiany: 04.06.2023]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Skierniewice</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>Domarasiewicza</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>trzecia niedziela miesiąca godz. 15.00</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Łowicka</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>04.06.2023</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            20.2172326,51.9827687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sanktuarium Chrystusa Króla</name>
+        <description><![CDATA[Miejscowość: Świnoujście<br>Lokalizacja: pl. Kościelny 1<br>Dni i godziny: Msze prywatne mateusz.tschech@gmail.com<br>www: https://tradycja-szczecin.pl/miejsca-celebracji/<br>Coniedzielna: false<br>(prawie) Codzienna: false<br>Diecezja: Szczecińsko-Kamieńska<br>Data ostatniej zmiany: 05.06.2024]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Świnoujście</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>pl. Kościelny 1</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>Msze prywatne mateusz.tschech@gmail.com</value>
+          </Data>
+          <Data name="www">
+            <value>https://tradycja-szczecin.pl/miejsca-celebracji/</value>
+          </Data>
+          <Data name="Coniedzielna">
+            <value>0</value>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value>0</value>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szczecińsko-Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>05.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            14.2474046,53.9082895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kościół pw. św. Rafała</name>
+        <description><![CDATA[Miejscowość: Nowogard<br>Lokalizacja: ul. Jana Pawła II 2<br>Dni i godziny: nieregularnie  ks. Bartosz Wach wachbartosz@onet.eu<br>www: <br>Coniedzielna: <br>(prawie) Codzienna: <br>Diecezja: Szcecińsko Kamieńska<br>Data ostatniej zmiany: 9.06.2024]]></description>
+        <styleUrl>#icon-959-4186F0</styleUrl>
+        <ExtendedData>
+          <Data name="Miejscowość">
+            <value>Nowogard</value>
+          </Data>
+          <Data name="Lokalizacja">
+            <value>ul. Jana Pawła II 2</value>
+          </Data>
+          <Data name="Dni i godziny">
+            <value>nieregularnie  ks. Bartosz Wach wachbartosz@onet.eu</value>
+          </Data>
+          <Data name="www">
+            <value/>
+          </Data>
+          <Data name="Coniedzielna">
+            <value/>
+          </Data>
+          <Data name="(prawie) Codzienna">
+            <value/>
+          </Data>
+          <Data name="Diecezja">
+            <value>Szcecińsko Kamieńska</value>
+          </Data>
+          <Data name="Data ostatniej zmiany">
+            <value>9.06.2024</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            15.1332549,53.6616846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

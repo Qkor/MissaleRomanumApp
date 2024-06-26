@@ -39,6 +39,7 @@ dependencies:
   flutter_map: ^6.1.0
   latlong2: ^0.9.0
   url_launcher: ^6.1.14
+  xml: 6.3.0
 
 dev_dependencies:
   flutter_test:
@@ -57,7 +58,7 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/map_markers.json
+    - assets/map_markers.kml
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
