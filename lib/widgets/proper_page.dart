@@ -11,7 +11,12 @@ class ProperPage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
-      appBar: AppBar(title: Text(proper.info.title), centerTitle: true),
+      appBar: AppBar(
+          backgroundColor: Colors.grey[800],
+          scrolledUnderElevation: 0,
+          centerTitle: true,
+          title: Text(proper.info.title)
+      ),
       body: OrdoPageContent(ordo: proper),
     );
   }
