@@ -7,7 +7,10 @@ class LoadingPage extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     return  Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
+        backgroundColor: Colors.grey[800],
+        scrolledUnderElevation: 0,
         centerTitle: true,
         title: const Text('Missale Romanum'),
       ),

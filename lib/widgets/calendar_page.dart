@@ -12,6 +12,7 @@ class CalendarPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: const CustomAppBar(title: "Propria"),
       body: ListView.builder(
         itemCount: calendar.length,
@@ -24,24 +25,24 @@ class CalendarPage extends StatelessWidget{
             'b' => Colors.black,
             _ => Colors.green
           };
-          return ListTile(
-            minVerticalPadding: 0,
-            title: GestureDetector(
-              onTap: (){
-                BlocProvider.of<NavBloc>(context).add(ProperEvent(id: calendar[index].id));
-              },
-              child: Card(
-                child: Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(border: Border(left: BorderSide(color: liturgicalColor, width: 5))),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(calendar[index].title, style: const TextStyle(fontWeight: FontWeight.bold)),
-                      Text(calendar[index].id),
-                    ],
-                  ),
-                ),
+          return InkWell(
+            onTap: (){
+              BlocProvider.of<NavBloc>(context).add(ProperEvent(id: calendar[index].id));
+            },
+            child: Container(
+              padding: const EdgeInsets.fromLTRB(10,15,10,15),
+              decoration: BoxDecoration(
+                border: Border(
+                  left: BorderSide(color: liturgicalColor, width: 5),
+                  bottom: const BorderSide(color: Colors.grey, width: 1)
+                )
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(calendar[index].title, style: const TextStyle(fontWeight: FontWeight.bold)),
+                  Text(calendar[index].id),
+                ],
               ),
             ),
           );

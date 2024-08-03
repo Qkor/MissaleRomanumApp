@@ -12,9 +12,12 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      backgroundColor: Colors.grey[800],
+      scrolledUnderElevation: 0,
       centerTitle: true,
       title: Text(title),
       leading: PopupMenuButton(
+        color: Colors.grey[900],
         icon: const Icon(Icons.menu),
         onSelected: (value){
           switch(value){

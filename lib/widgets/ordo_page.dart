@@ -10,6 +10,7 @@ class OrdoPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: const CustomAppBar(title: "Ordo Missae"),
       body: OrdoPageContent(ordo: ordo),
     );
