@@ -31,7 +31,6 @@ class CalendarPage extends StatelessWidget{
                 BlocProvider.of<NavBloc>(context).add(ProperEvent(id: calendar[index].id));
               },
               child: Card(
-                margin: EdgeInsets.zero,
                 child: Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(border: Border(left: BorderSide(color: liturgicalColor, width: 5))),
