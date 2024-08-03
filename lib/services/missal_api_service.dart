@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:xml/xml.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart';
-import 'package:missale/models/calendar.dart';
+import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/models/map_marker.dart';
 import 'package:missale/models/ordo.dart';
 import 'package:sqflite/sqflite.dart';

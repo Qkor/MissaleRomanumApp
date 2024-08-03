@@ -1,42 +1,16 @@
-class OrdoInfo{
-  final String title;
+import 'package:freezed_annotation/freezed_annotation.dart';
+import 'ordo_info.dart';
+import 'ordo_section.dart';
 
-  OrdoInfo(this.title);
+part 'ordo.freezed.dart';
+part 'ordo.g.dart';
 
-  factory OrdoInfo.fromJson(Map<String, dynamic> json){
-    return OrdoInfo(
-      json['title']
-    );
-  }
-}
+@freezed
+class Ordo with _$Ordo{
+  const factory Ordo({
+    required OrdoInfo info,
+    required List<OrdoSection> sections
+  }) = _Ordo;
 
-class OrdoSection{
-  final String id;
-  final String label;
-  final List<List<String>> body;
-
-  OrdoSection(this.id, this.label, this.body);
-
-  factory OrdoSection.fromJson(Map<String, dynamic> json){
-
-    return OrdoSection(
-      json['id'],
-      json['label'],
-      List<List<String>>.from((json['body'] as List<dynamic>).map((item) => List<String>.from(item as List<dynamic>)))
-    );
-  }
-}
-
-class Ordo{
-  final OrdoInfo info;
-  final List<OrdoSection> sections;
-
-  Ordo(this.info, this.sections);
-
-  factory Ordo.fromJson(Map<String, dynamic> json){
-    return Ordo(
-      OrdoInfo.fromJson(json['info']),
-      List<OrdoSection>.from((json['sections']).map(((data) => OrdoSection.fromJson(data))).toList())
-    );
-  }
+  factory Ordo.fromJson(Map<String, dynamic> json) => _$OrdoFromJson(json);
 }

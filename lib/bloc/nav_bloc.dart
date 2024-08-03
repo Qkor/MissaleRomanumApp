@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:missale/models/map_marker.dart';
 import 'package:missale/services/missal_api_service.dart';
-import 'package:missale/models/calendar.dart';
+import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/models/ordo.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';

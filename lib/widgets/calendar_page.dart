@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:missale/bloc/nav_bloc.dart';
 import 'package:missale/bloc/nav_event.dart';
-import 'package:missale/models/calendar.dart';
+import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/widgets/custom_app_bar.dart';
 
 class CalendarPage extends StatelessWidget{

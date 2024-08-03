@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:missale/models/calendar.dart';
+import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/models/ordo.dart';
 import 'package:missale/models/map_marker.dart';
 
