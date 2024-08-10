@@ -15,8 +15,12 @@ class DatabaseManager{
     );
   }
 
-  getRubrics(id) async {
-    return await _database!.query('rubrics', where: 'id=?', whereArgs: [id]);
+  Future<String?> getRubrics(id) async {
+    final queryResult = await _database!.query('rubrics', where: 'id=?', whereArgs: [id]);
+    if(queryResult.isNotEmpty){
+      return queryResult.first['json'] as String;
+    }
+    return null;
   }
 
   saveRubrics(id, json) async {
