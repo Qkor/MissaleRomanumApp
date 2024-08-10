@@ -2,13 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:missale/models/map_marker.dart';
+import 'package:missale/managers/map_manager.dart';
 import 'package:missale/widgets/custom_app_bar.dart';
 
 class MapPage extends StatelessWidget{
-
-  final List<MapMarker> markers;
-  const MapPage({super.key, required this.markers});
+  const MapPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +24,7 @@ class MapPage extends StatelessWidget{
               userAgentPackageName: 'com.qkor.missale',
             ),
             MarkerLayer(
-              markers: markers,
+              markers: MapManager.markers,
             )
           ],
         )

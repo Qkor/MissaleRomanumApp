@@ -8,7 +8,6 @@ import 'package:missale/widgets/loading_page.dart';
 import 'package:missale/widgets/map_page.dart';
 import 'package:missale/widgets/ordo_page.dart';
 import 'package:missale/widgets/proper_page.dart';
-import 'models/map_marker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,10 +21,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
-  bool appReady = false;
-  List<MapMarker> mapMarkers = [];
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -36,10 +31,6 @@ class _MyAppState extends State<MyApp> {
         child: BlocListener<NavBloc, NavState>(
           listener: (context, state){
             if(state is AppReadyState){
-              setState(() {
-                mapMarkers = state.mapMarkers;
-                appReady = true;
-              });
               BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
             }
             if(state is ProperLoadedState){
@@ -71,7 +62,7 @@ class _MyAppState extends State<MyApp> {
               } else if (state is OrdoLoadedState){
                 return OrdoPage(ordo: state.ordo);
               } else if(state is MapState){
-                return MapPage(markers: mapMarkers);
+                return const MapPage();
               }
               return const LoadingPage();
             },

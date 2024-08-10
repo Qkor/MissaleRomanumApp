@@ -1,10 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:missale/models/map_marker.dart';
+import 'package:missale/managers/map_manager.dart';
 import 'package:missale/services/missal_api_service.dart';
 import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/models/ordo.dart';
-import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
+import 'package:missale/managers/database_manager.dart';
 import 'nav_event.dart';
 import 'nav_state.dart';
 
@@ -22,17 +22,11 @@ class NavBloc extends Bloc<NavEvent, NavState>{
 
   _serviceSetup(StartupEvent event, Emitter<NavState> emit) async {
     emit(LoadingState());
-    var databasesPath = await getDatabasesPath();
-    String path = join(databasesPath, 'missale.db');
-    database = await openDatabase(
-      path, version: 1,
-      onCreate: (Database db, int version) async {
-        await db.execute('CREATE TABLE rubrics (id TEXT PRIMARY KEY, json TEXT)');
-      }
-    );
-    service = MissalApiService(database: database);
-    final List<MapMarker> mapMarkers = await service.getMapMarkers();
-    emit(AppReadyState(mapMarkers: mapMarkers));
+    final databaseManager = DatabaseManager();
+    await databaseManager.initializeDatabase();
+    await MapManager.loadMapMarkers();
+    service = MissalApiService(databaseManager);
+    emit(AppReadyState());
   }
 
   _getCalendar(CalendarEvent event, Emitter<NavState> emit) async {

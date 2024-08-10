@@ -1,7 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/models/ordo.dart';
-import 'package:missale/models/map_marker.dart';
 
 abstract class NavState extends Equatable {
   @override
@@ -9,8 +8,7 @@ abstract class NavState extends Equatable {
 }
 class InitState extends NavState{}
 class AppReadyState extends NavState{
-  final List<MapMarker> mapMarkers;
-  AppReadyState({required this.mapMarkers});
+  AppReadyState();
 }
 class LoadingState extends NavState{}
 class LoadingProperState extends NavState{}
