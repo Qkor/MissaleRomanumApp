@@ -4,9 +4,11 @@ import 'package:missale/widgets/map_marker_widget.dart';
 import 'package:xml/xml.dart';
 
 class MapMarker extends Marker{
-  const MapMarker({required super.point, required super.child});
+  const MapMarker({required super.point, required super.child, super.width, super.height});
   factory MapMarker.fromJson(Map<String, dynamic> json){
     return MapMarker(
+      width: 30,
+      height: 60,
       point: LatLng(json['latitude'], json['longitude']),
       child: CustomMapMarkerWidget(
         name: json['name'],
@@ -29,6 +31,8 @@ class MapMarker extends Marker{
     final longitude = double.parse(coordinates.split(',')[0]);
     final latitude = double.parse(coordinates.split(',')[1]);
     return MapMarker(
+        width: 30,
+        height: 60,
         point: LatLng(latitude, longitude),
         child: CustomMapMarkerWidget(
           name: name,

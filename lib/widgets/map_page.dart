@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
@@ -17,6 +16,7 @@ class MapPage extends StatelessWidget{
           options: const MapOptions(
             initialCenter: LatLng(52.4, 16.9),
             initialZoom: 9.2,
+            interactionOptions: InteractionOptions(flags: InteractiveFlag.pinchZoom | InteractiveFlag.drag)
           ),
           children: [
             TileLayer(
