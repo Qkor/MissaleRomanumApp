@@ -80,7 +80,7 @@ class CalendarPage extends StatelessWidget{
             onTap: (){
               BlocProvider.of<NavBloc>(context).add(ProperEvent(id: calendar[day].id));
             },
-            child: Container(
+            child: Ink(
               padding: const EdgeInsets.fromLTRB(10,15,10,15),
               decoration: BoxDecoration(
                   color: currentYear && day==today ? Colors.grey[850] : null,
