@@ -4,17 +4,25 @@ import 'package:missale/bloc/nav_bloc.dart';
 import 'package:missale/bloc/nav_event.dart';
 import 'package:missale/models/liturgical_calendar.dart';
 import 'package:missale/widgets/custom_app_bar.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class CalendarPage extends StatelessWidget{
   final List<LiturgicalCalendar> calendar;
-  const CalendarPage({super.key, required this.calendar});
+  final scrollController = ItemScrollController();
+  CalendarPage({super.key, required this.calendar});
+
+  int getDayOfYear() {
+    var now = DateTime.now();
+    return now.difference(DateTime(now.year, 1, 1)).inDays;
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
       appBar: const CustomAppBar(title: "Propria"),
-      body: ListView.builder(
+      body: ScrollablePositionedList.builder(
+        initialScrollIndex: getDayOfYear(),
         itemCount: calendar.length,
         itemBuilder: (BuildContext context, int index){
           Color liturgicalColor = switch(calendar[index].colors[0]){
