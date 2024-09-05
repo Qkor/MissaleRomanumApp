@@ -8,10 +8,9 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class CalendarPage extends StatelessWidget{
   final List<LiturgicalCalendar> calendar;
-  final scrollController = ItemScrollController();
   final int year;
   final bool scrollToToday;
-  CalendarPage({super.key, required this.calendar, required this.year, this.scrollToToday=false});
+  const CalendarPage({super.key, required this.calendar, required this.year, this.scrollToToday=false});
 
   int getDayOfYear() {
     var now = DateTime.now();
