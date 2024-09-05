@@ -7,7 +7,8 @@ abstract class NavEvent extends Equatable {
 class StartupEvent extends NavEvent{}
 class CalendarEvent extends NavEvent{
   final int year;
-  CalendarEvent({required this.year});
+  final bool scrollToToday;
+  CalendarEvent({required this.year, this.scrollToToday=false});
 }
 class OrdoEvent extends NavEvent{}
 class MapEvent extends NavEvent{}

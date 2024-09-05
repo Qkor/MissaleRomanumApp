@@ -16,7 +16,9 @@ class FailureState extends NavState{}
 class MapState extends NavState{}
 class CalendarLoadedState extends NavState{
   final List<LiturgicalCalendar> calendar;
-  CalendarLoadedState(this.calendar);
+  final int year;
+  final bool scrollToToday;
+  CalendarLoadedState(this.calendar, this.year, this.scrollToToday);
 }
 class OrdoLoadedState extends NavState{
   final Ordo ordo;

@@ -22,7 +22,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
         onSelected: (value){
           switch(value){
             case 'calendar':
-              BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
+              BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year, scrollToToday: true));
             case 'ordo':
               BlocProvider.of<NavBloc>(context).add(OrdoEvent());
             case 'map':

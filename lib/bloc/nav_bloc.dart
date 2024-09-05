@@ -33,7 +33,7 @@ class NavBloc extends Bloc<NavEvent, NavState>{
     emit(LoadingState());
     try{
       List<LiturgicalCalendar> calendar = await service.fetchCalendar(event.year);
-      emit(CalendarLoadedState(calendar));
+      emit(CalendarLoadedState(calendar, event.year, event.scrollToToday));
     } catch(_){
       emit(FailureState());
     }

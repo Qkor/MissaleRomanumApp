@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
         child: BlocListener<NavBloc, NavState>(
           listener: (context, state){
             if(state is AppReadyState){
-              BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year));
+              BlocProvider.of<NavBloc>(context).add(CalendarEvent(year: DateTime.now().year, scrollToToday: true));
             }
             if(state is ProperLoadedState){
               Navigator.push(
@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
               current is LoadingState,
             builder: (context, state){
               if(state is CalendarLoadedState){
-                return CalendarPage(calendar: state.calendar);
+                return CalendarPage(calendar: state.calendar, year: state.year, scrollToToday: state.scrollToToday);
               } else if (state is OrdoLoadedState){
                 return OrdoPage(ordo: state.ordo);
               } else if(state is MapState){
