@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CustomMapMarkerWidget extends StatelessWidget{
@@ -21,13 +22,19 @@ class CustomMapMarkerWidget extends StatelessWidget{
                 title: Column(
                   children: [
                     Text(name, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
-                    const Divider(),
-                    Text(address, style: const TextStyle(fontSize: 14), textAlign: TextAlign.center),
-                    const Divider(),
-                    InkWell(
-                      child: Text(link, style: const TextStyle(fontSize: 14, color: Colors.blue), textAlign: TextAlign.center),
-                      onTap: () => launchUrl(Uri.parse(link), mode: LaunchMode.externalApplication)
-                    )
+                    if(address.isNotEmpty) ... [
+                      const Divider(),
+                      Text(address, style: const TextStyle(fontSize: 14), textAlign: TextAlign.center),
+                    ],
+                    if(link.isNotEmpty) ... [
+                      const Divider(),
+                      Linkify(
+                        onOpen: (url) => launchUrl(Uri.parse(url.url), mode: LaunchMode.externalApplication),
+                        text: link,
+                        linkStyle: const TextStyle(fontSize: 14, color: Colors.blue, decoration: TextDecoration.none),
+                        textAlign: TextAlign.center,
+                      )
+                    ]
                   ],
                 ),
               );
